@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/Nginx-Proxy-Manager",
+  "title": "Nginx-Proxy-Manager",
+  "description": "",
+  "source": "@site/docs/Docker Compose/Nginx-Proxy-Manager.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/Nginx-Proxy-Manager",
+  "permalink": "/docs/Docker Compose/Nginx-Proxy-Manager",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Nextcloud",
+    "permalink": "/docs/Docker Compose/Nextcloud"
+  },
+  "next": {
+    "title": "Pi-Hole",
+    "permalink": "/docs/Docker Compose/Pi-Hole"
+  }
+}

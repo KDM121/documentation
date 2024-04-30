@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/Maker-Management-Platform",
+  "title": "Maker-Management-Platform",
+  "description": "",
+  "source": "@site/docs/Docker Compose/Maker-Management-Platform.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/Maker-Management-Platform",
+  "permalink": "/docs/Docker Compose/Maker-Management-Platform",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Linkwarden",
+    "permalink": "/docs/Docker Compose/Linkwarden"
+  },
+  "next": {
+    "title": "Metube",
+    "permalink": "/docs/Docker Compose/Metube"
+  }
+}

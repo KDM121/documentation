@@ -1,0 +1,23 @@
+{
+  "id": "Linux/Mount SMB share",
+  "title": "Mount SMB share",
+  "description": "make sure that the folder that is \"/mnt/pve/nas\" in the example already exists otherwise it will fail.",
+  "source": "@site/docs/Linux/Mount SMB share.md",
+  "sourceDirName": "Linux",
+  "slug": "/Linux/Mount SMB share",
+  "permalink": "/docs/Linux/Mount SMB share",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MC Paper 1.16.5 Setup",
+    "permalink": "/docs/Linux/MC Paper 1.16.5 Setup"
+  },
+  "next": {
+    "title": "SSH key stuff",
+    "permalink": "/docs/Linux/SSH key stuff"
+  }
+}

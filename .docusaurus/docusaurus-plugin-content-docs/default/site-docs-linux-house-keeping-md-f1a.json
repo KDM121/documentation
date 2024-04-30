@@ -1,0 +1,23 @@
+{
+  "id": "Linux/House Keeping",
+  "title": "House Keeping",
+  "description": "",
+  "source": "@site/docs/Linux/House Keeping.md",
+  "sourceDirName": "Linux",
+  "slug": "/Linux/House Keeping",
+  "permalink": "/docs/Linux/House Keeping",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "General",
+    "permalink": "/docs/Linux/General"
+  },
+  "next": {
+    "title": "Lunar Client Setup",
+    "permalink": "/docs/Linux/Lunar Client Setup"
+  }
+}

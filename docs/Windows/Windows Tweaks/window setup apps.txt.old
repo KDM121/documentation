@@ -1,0 +1,339 @@
+winget install Notepad++.Notepad++ Yubico.YubikeyManager Yubico.YubiKeyPersonalizationTool WireGuard.WireGuard Waterfox.Waterfox VideoLAN.VLC Termius.Termius Telegram.TelegramDesktop SteelSeries.GG Valve.Steam Ookla.Speedtest.Desktop ShareX.ShareX ProtonTechnologies.ProtonVPN Parsec.Parsec dotPDNLLC.paintdotnet Oracle.VirtualBox OBSProject.OBSStudio OpenJS.NodeJS Nextcloud.NextcloudDesktop Google.NearbyShare Microsoft.VisualStudioCode TheDocumentFoundation.LibreOffice Iriun.IriunWebcam GitHub.GitHubDesktop Git.Git EpicGames.EpicGamesLauncher Discord.Discord RemixDev.deemix-gui BlenderFoundation.Blender Bitwarden.Bitwarden Balena.Etcher Moonsworth.LunarClient 7zip.zip Famatech.AdvancedIPScanner Klocman.BulkCrapUninstaller REALiX.HWiNFO Insecure.Nmap filips.FirefoxPWA qBittorrent.qBittorrent Rufus.Rufus Yarn.Yarn Yubico.Authenticator Whiteboard
+
+# spotify block the spot
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-Expression "& { $(Invoke-WebRequest -UseBasicParsing 'https://raw.githubusercontent.com/mrpond/BlockTheSpot/master/install.ps1') } -UninstallSpotifyStoreEdition -UpdateSpotify"
+
+# Windows Sandbox
+Start-Process powershell -Verb runAs
+dism /online /Enable-Feature /FeatureName:"Containers-DisposableClientVM" -All
+# WSL
+dism /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+wsl --install
+wsl --install -d Debian
+wsl --install -d Ubuntu-22.04
+
+# remove windows widgets
+Get-AppxPackage *WebExperience* | Remove-AppxPackage
+
+# disable smb throttling
+Set-Location -Path HKLM:\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters
+# Create the value if it doesn't exist
+If (!(Test-Path -Path "DisableBandwidthThrottling")) {
+    New-ItemProperty
+-Path
+"HKLM:\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters"
+-Name
+"DisableBandwidthThrottling"
+-PropertyType DWORD -Value 1
+}
+# Set the value to 1 (disabled)
+Set-ItemProperty
+-Path
+"HKLM:\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters"
+-Name
+"DisableBandwidthThrottling" -Value 1 -Type DWORD
+
+#networking stuff
+# Set congestion control algorithm to CTCP
+netsh int tcp set supplemental Internet congestionprovider=ctcp
+
+# Configure Teredo settings
+netsh interface Teredo set state type=enterpriseclient
+netsh interface Teredo set state servername=default
+
+# disable network power savings
+Set-Location -Path HKLM:\SYSTEM\CurrentControlSet\Services\NDIS\Parameters
+If (!(Test-Path -Path "DefaultPnPCapabilities")) {
+    New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\NDIS\Parameters" -Name "DefaultPnPCapabilities" -PropertyType DWORD -Value 24
+}
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\NDIS\Parameters" -Name "DefaultPnPCapabilities" -Value 24 -Type DWORD
+
+# increase system responsiveness
+Set-Location -Path HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile
+# Create the value if it doesn't exist
+If (!(Test-Path -Path "SystemResponsiveness")) {
+    New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" -Name "SystemResponsiveness" -PropertyType DWORD -Value 10
+}
+# Set the value to 10
+Set-ItemProperty
+-Path
+"HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile"
+-Name
+"SystemResponsiveness" -Value 10 -Type DWORD
+
+# Disable SleepStudy diagnostic logging
+wevtutil.exe set-log "Microsoft-Windows-SleepStudy/Diagnostic" /e:false
+
+# Disable Kernel-Processor-Power diagnostic logging
+wevtutil.exe set-log "Microsoft-Windows-Kernel-Processor-Power/Diagnostic" /e:false
+
+# Disable UserModePowerService diagnostic logging
+wevtutil.exe set-log "Microsoft-Windows-UserModePowerService/Diagnostic" /e:false
+
+# privacy stuff
+Set-Location -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\AdvertisingInfo
+# Create the value if it doesn't exist
+If (!(Test-Path -Path "Enabled")) {
+    New-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\AdvertisingInfo" -Name "Enabled" -PropertyType DWORD -Value 0
+}
+# Set the value to 0 (disabled)
+Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\AdvertisingInfo" -Name "Enabled" -Value 0 -Type DWORD
+
+Set-Location -Path HKLM:\SOFTWARE\Microsoft\PolicyManager\current\device\Bluetooth
+# Create the value if it doesn't exist
+If (!(Test-Path -Path "AllowAdvertising")) {
+    New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\PolicyManager\current\device\Bluetooth" -Name "AllowAdvertising" -PropertyType DWORD -Value 0
+}
+# Set the value to 0 (disabled)
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\PolicyManager\current\device\Bluetooth" -Name "AllowAdvertising" -Value 0 -Type DWORD
+
+# Disable Settings Sync completely
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\SettingSync" -Name "DisableSettingSync" -Value 2 -Type DWord
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\SettingSync" -Name "DisableSettingSyncUserOverride" -Value 1 -Type DWord
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\SettingSync" -Name "DisableSyncOnPaidNetwork" -Value 1 -Type DWord
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\SettingSync" -Name "DisableWindowsSettingSync" -Value 2 -Type DWord
+# Disable syncing of specific settings categories
+Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Personalization" -Name "Enabled" -Value 0 -Type DWord
+Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\BrowserSettings" -Name "Enabled" -Value 0 -Type DWord
+Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Credentials" -Name "Enabled" -Value 0 -Type DWord
+Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Accessibility" -Name "Enabled" -Value 0 -Type DWord
+Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Windows" -Name "Enabled" -Value 0 -Type DWord
+# Set SyncPolicy to prevent any settings syncing
+Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync" -Name "SyncPolicy" -Value 5 -Type DWord
+
+disable Suggested Ways to Finish Setting Up Your Device
+Set-ItemProperty
+-Path
+"HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\UserProfileEngagement"
+-Name
+"ScoobeSystemSettingEnabled"
+-Value 0 -Type DWord
+
+# Create the registry key if it doesn't exist
+If (!(Test-Path -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Messaging")) {
+    New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Messaging" -Force | Out-Null
+}
+
+# Set the registry value to disable cloud sync
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Messaging" -Name "AllowMessageSync" -Value 0 -Type DWORD
+
+
+# TELEMETTY DATA
+Set-Location -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\CurrentVersion\Software Protection Platform
+
+# Create the value if it doesn't exist
+If (!(Test-Path -Path "NoGenTicket")) {
+    New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\CurrentVersion\Software Protection Platform" -Name "NoGenTicket" -PropertyType DWORD -Value 1
+}
+
+# Set the value to 1
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\CurrentVersion\Software Protection Platform" -Name "NoGenTicket" -Value 1 -Type DWORD
+
+# Disable CEIP for AppV
+Set-Location -Path HKLM:\SOFTWARE\Policies\Microsoft\AppV\CEIP
+If (!(Test-Path -Path "CEIPEnable")) {
+    New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\AppV\CEIP" -Name "CEIPEnable" -PropertyType DWORD -Value 0
+} else {
+    Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\AppV\CEIP" -Name "CEIPEnable" -Value 0 -Type DWORD
+}
+
+# Disable CEIP for SQMClient
+Set-Location -Path HKLM:\SOFTWARE\Policies\Microsoft\SQMClient\Windows
+If (!(Test-Path -Path "CEIPEnable")) {
+    New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\SQMClient\Windows" -Name "CEIPEnable" -PropertyType DWORD -Value 0
+} else {
+    Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\SQMClient\Windows" -Name "CEIPEnable" -Value 0 -Type DWORD
+}
+
+# Create the registry key if it doesn't exist
+If (!(Test-Path -Path "HKLM:\SYSTEM\CurrentControlSet\Control\Diagnostics\Performance")) {
+    New-Item -Path "HKLM:\SYSTEM\CurrentControlSet\Control\Diagnostics\Performance" -Force | Out-Null
+}
+
+# Set the registry value to disable diagnostic tracing
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\Diagnostics\Performance" -Name "DisableDiagnosticTracing" -Value 1 -Type DWORD
+
+[Environment]::SetEnvironmentVariable("DOTNET_CLI_TELEMETRY_OPTOUT", "1", "Machine")
+
+# Restrict implicit ink and text collection
+Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\InputPersonalization" -Name "RestrictImplicitInkCollection" -Value 1 -Type DWORD
+Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\InputPersonalization" -Name "RestrictImplicitTextCollection" -Value 1 -Type DWORD
+
+# Disable contact harvesting
+Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\InputPersonalization\TrainedDataStore" -Name "HarvestContacts" -Value 0 -Type DWORD
+
+# Mark privacy policy as not accepted
+Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Personalization\Settings" -Name "AcceptedPrivacyPolicy" -Value 0 -Type DWORD
+
+# Prevent handwriting data sharing and error reports (likely requires TrustedInstaller or Group Policy)
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\TabletPC" -Name "PreventHandwritingDataSharing" -Value 1 -Type DWORD
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\HandwritingErrorReports" -Name "PreventHandwritingErrorReports" -Value 1 -Type DWORD
+
+# Disable typing insights and improve inking/typing recognition
+Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Input\Settings" -Name "InsightsEnabled" -Value 0 -Type DWORD
+Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Input\TIPC" -Name "Enabled" -Value 0 -Type DWORD
+
+# Stop the DiagTrack service (might require TrustedInstaller privileges)
+Stop-Service -Name "DiagTrack" -ErrorAction SilentlyContinue
+
+# Set registry values to disable telemetry
+Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\DiagTrack" -Name "ShowedToastAtLevel" -Value 1 -Type DWORD
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection" -Name "AllowTelemetry" -Value 0 -Type DWORD
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection" -Name "MaxTelemetryAllowed" -Value 0 -Type DWORD
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\DataCollection" -Name "AllowTelemetry" -Value 0 -Type DWORD
+
+# Create the registry key and value to disable the DiagTrack listener
+New-Item -Path "HKLM:\SYSTEM\CurrentControlSet\Control\WMI\Autologger\Diagtrack-Listener" -Force | Out-Null
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\WMI\Autologger\Diagtrack-Listener" -Name "Start" -Value 0 -Type DWORD
+
+# Delete DiagTrack logs (run with elevated permissions)
+Remove-Item -Path "%ProgramData%\Microsoft\Diagnosis\ETLLogs\AutoLogger\DiagTrack*" -Force -ErrorAction SilentlyContinue
+Remove-Item -Path "%ProgramData%\Microsoft\Diagnosis\ETLLogs\ShutdownLogger\DiagTrack*" -Force -ErrorAction SilentlyContinue
+
+# Set default app permissions to "Deny"
+$permissions = @(
+    "appDiagnostics",
+    "appointments",
+    "bluetoothSync",
+    "broadFileSystemAccess",
+    "chat",
+    "contacts",
+    "documentsLibrary",
+    "email",
+    "location",
+    "phoneCall",
+    "phoneCallHistory",
+    "picturesLibrary",
+    "radios",
+    "userAccountInformation",
+    "userDataTasks",
+    "userNotificationListener",
+    "videosLibrary"
+)
+
+foreach ($permission in $permissions) {
+    Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\$permission" -Name "Value" -Value "Deny" -Type String
+}
+
+# Create the registry value to disable Activity Feed
+New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\System" -Name "EnableActivityFeed" -Value 0 -PropertyType DWORD -Force
+
+# Create the registry value to disable experimentation
+New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\PolicyManager\default\System" -Name "AllowExperimentation" -Value 0 -PropertyType DWORD -Force
+
+# Create the registry values to disable Location Tracking
+New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\FindMyDevice" -Name "AllowFindMyDevice" -Value 0 -PropertyType DWORD -Force
+New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\FindMyDevice" -Name "LocationSyncEnabled" -Value 0 -PropertyType DWORD -Force
+
+# Create the registry value to disable OOBE Privacy Experience
+New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\OOBE" -Name "DisablePrivacyExperience" -Value 1 -PropertyType DWORD -Force
+
+# Create the registry value to disable automatic speech data updates
+New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Speech" -Name "AllowSpeechModelUpdate" -Value 0 -PropertyType DWORD -Force
+
+# Create registry values to disable tailored experiences with diagnostic data
+New-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Privacy" -Name "TailoredExperiencesWithDiagnosticDataEnabled" -Value 0 -PropertyType DWORD -Force
+New-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Windows\CloudContent" -Name "DisableTailoredExperiencesWithDiagnosticData" -Value 1 -PropertyType DWORD -Force
+
+---
+title: Disable Most Frequently Used Applications
+description: Disables the most frequently used applications in the start menu for privacy
+privilege: TrustedInstaller
+actions:
+  - !registryValue:
+    path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer'
+    value: 'NoInstrumentation'
+    data: '1'
+    type: REG_DWORD
+
+# Create the registry values to disallow upload and publish of user activities
+New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\System" -Name "UploadUserActivities" -Value 0 -PropertyType DWORD -Force
+New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\System" -Name "PublishUserActivities" -Value 0 -PropertyType DWORD -Force
+
+
+# Disable MouseKeys
+New-ItemProperty -Path "HKCU:\Control Panel\Accessibility\MouseKeys" -Name "Flags" -Value 0 -PropertyType DWORD -Force
+
+# Disable StickyKeys
+New-ItemProperty -Path "HKCU:\Control Panel\Accessibility\StickyKeys" -Name "Flags" -Value 0 -PropertyType DWORD -Force
+
+# Disable ToggleKeys
+New-ItemProperty -Path "HKCU:\Control Panel\Accessibility\ToggleKeys" -Name "Flags" -Value 0 -PropertyType DWORD -Force
+# Disable High Contrast
+New-ItemProperty -Path "HKCU:\Control Panel\Accessibility\HighContrast" -Name "Flags" -Value 0 -PropertyType DWORD -Force
+# Create the registry value to disable Show Desktop Peek
+New-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" -Name "DisablePreviewDesktop" -Value 1 -PropertyType DWORD -Force
+# Disable Feeds and News and Interests features
+New-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Feeds" -Name "ShellFeedsTaskbarViewMode" -Value 2 -PropertyType DWORD -Force
+New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Windows Feeds" -Name "EnableFeeds" -Value 0 -PropertyType DWORD -Force
+New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Dsh" -Name "AllowNewsAndInterests" -Value 0 -PropertyType DWORD -Force
+New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\PolicyManager\default\NewsAndInterests\AllowNewsAndInterests" -Name "value" -Value 0 -PropertyType DWORD -Force
+
+# Disable Widgets in taskbar (for Windows builds 22000 and above)
+If ($([System.Environment]::OSVersion.Version.Build) -ge 22000) {
+    New-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" -Name "TaskbarDa" -Value 0 -PropertyType DWORD -Force
+}
+# Ensure Windows build compatibility
+If ($([System.Environment]::OSVersion.Version.Build) -ge 22000) {
+    # Attempt to create registry values with elevated privileges
+    Try {
+        New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Windows Chat" -Name "ChatIcon" -Value 3 -PropertyType DWORD -Force
+        New-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" -Name "TaskbarMn" -Value 0 -PropertyType DWORD -Force
+        Write-Output "Registry values created successfully."
+    }
+    Catch {
+        Write-Warning "Failed to create registry values directly. Consider using elevated tools or Group Policy to apply changes with TrustedInstaller privileges."
+    }
+}
+Else {
+    Write-Warning "Windows Chat disabling is only applicable for builds 22000 and above."
+}
+# Ensure Windows build compatibility
+If ($([System.Environment]::OSVersion.Version.Build) -gt 22000) {
+    # Attempt to create the registry value with elevated privileges
+    Try {
+        New-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarDeveloperSettings" -Name "TaskbarEndTask" -Value 1 -PropertyType DWORD -Force
+        Write-Output "'End task' option added to the taskbar context menu successfully."
+    }
+    Catch {
+        Write-Warning "Failed to create the registry value directly. Consider using elevated tools or Group Policy to apply the change with TrustedInstaller privileges."
+    }
+}
+Else {
+    Write-Warning "'End task' option in the taskbar context menu is only available for builds above 22000."
+}
+# Attempt to create the registry value with elevated privileges
+Try {
+    New-ItemProperty -Path "HKCU:\Control Panel\Desktop" -Name "JPEGImportQuality" -Value 100 -PropertyType DWORD -Force
+    Write-Output "Wallpaper compression disabled successfully."
+}
+Catch {
+    Write-Warning "Failed to create the registry value directly. Consider using elevated tools or Group Policy to apply the change with TrustedInstaller privileges."
+}
+# Attempt to create the registry values with elevated privileges
+Try {
+    New-ItemProperty -Path "HKCU:\Control Panel\Mouse" -Name "MouseSpeed" -Value 0 -PropertyType String -Force
+    New-ItemProperty -Path "HKCU:\Control Panel\Mouse" -Name "MouseThreshold1" -Value 0 -PropertyType String -Force
+    New-ItemProperty -Path "HKCU:\Control Panel\Mouse" -Name "MouseThreshold2" -Value 0 -PropertyType String -Force
+    Write-Output "Mouse acceleration disabled successfully."
+}
+Catch {
+    Write-Warning "Failed to create the registry values directly. Consider using elevated tools or Group Policy to apply the changes with TrustedInstaller privileges."
+}
+
+# Attempt to create the registry values with elevated privileges
+Try {
+    New-ItemProperty -Path "HKCU:\Control Panel\Mouse" -Name "MouseSpeed" -Value 0 -PropertyType String -Force
+    New-ItemProperty -Path "HKCU:\Control Panel\Mouse" -Name "MouseThreshold1" -Value 0 -PropertyType String -Force
+    New-ItemProperty -Path "HKCU:\Control Panel\Mouse" -Name "MouseThreshold2" -Value 0 -PropertyType String -Force
+    Write-Output "Mouse acceleration disabled successfully."
+}
+Catch {
+    Write-Warning "Failed to create the registry values directly. Consider using elevated tools or Group Policy to apply the changes with TrustedInstaller privileges."
+}
+
+# end of script
+# do ultimate power plan with tweaks and group policy for stuff
+# do sound settings
+Restart-Computer

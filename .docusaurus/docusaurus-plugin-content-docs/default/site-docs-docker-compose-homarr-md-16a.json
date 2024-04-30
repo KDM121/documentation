@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/Homarr",
+  "title": "Homarr",
+  "description": "",
+  "source": "@site/docs/Docker Compose/Homarr.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/Homarr",
+  "permalink": "/docs/Docker Compose/Homarr",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "General",
+    "permalink": "/docs/Docker Compose/General"
+  },
+  "next": {
+    "title": "Homepage",
+    "permalink": "/docs/Docker Compose/Homepage"
+  }
+}

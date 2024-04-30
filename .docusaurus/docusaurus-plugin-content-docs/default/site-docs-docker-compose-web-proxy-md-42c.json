@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/Web-Proxy",
+  "title": "Web-Proxy",
+  "description": "",
+  "source": "@site/docs/Docker Compose/Web-Proxy.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/Web-Proxy",
+  "permalink": "/docs/Docker Compose/Web-Proxy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Watchtower",
+    "permalink": "/docs/Docker Compose/Watchtower"
+  },
+  "next": {
+    "title": "Zipline",
+    "permalink": "/docs/Docker Compose/Zipline"
+  }
+}

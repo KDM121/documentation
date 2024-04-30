@@ -1,0 +1,23 @@
+{
+  "id": "Proxmox/LXC Config",
+  "title": "LXC Config",
+  "description": "Deploy a \"wgetable\" copy with [[NGINX web server]]",
+  "source": "@site/docs/Proxmox/LXC Config.md",
+  "sourceDirName": "Proxmox",
+  "slug": "/Proxmox/LXC Config",
+  "permalink": "/docs/Proxmox/LXC Config",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "General",
+    "permalink": "/docs/Proxmox/General"
+  },
+  "next": {
+    "title": "PVE 8 Add SMB share",
+    "permalink": "/docs/Proxmox/PVE 8 Add SMB share"
+  }
+}

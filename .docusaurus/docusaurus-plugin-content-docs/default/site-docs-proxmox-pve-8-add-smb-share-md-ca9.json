@@ -1,0 +1,23 @@
+{
+  "id": "Proxmox/PVE 8 Add SMB share",
+  "title": "PVE 8 Add SMB share",
+  "description": "Then run:",
+  "source": "@site/docs/Proxmox/PVE 8 Add SMB share.md",
+  "sourceDirName": "Proxmox",
+  "slug": "/Proxmox/PVE 8 Add SMB share",
+  "permalink": "/docs/Proxmox/PVE 8 Add SMB share",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "LXC Config",
+    "permalink": "/docs/Proxmox/LXC Config"
+  },
+  "next": {
+    "title": "PVE 8 Repositories",
+    "permalink": "/docs/Proxmox/PVE 8 Repositories"
+  }
+}

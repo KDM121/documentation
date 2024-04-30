@@ -1,0 +1,23 @@
+{
+  "id": "Linux/General",
+  "title": "General",
+  "description": "check installed OS",
+  "source": "@site/docs/Linux/General.md",
+  "sourceDirName": "Linux",
+  "slug": "/Linux/General",
+  "permalink": "/docs/Linux/General",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Flash ISO to USB",
+    "permalink": "/docs/Linux/Flash ISO to USB"
+  },
+  "next": {
+    "title": "House Keeping",
+    "permalink": "/docs/Linux/House Keeping"
+  }
+}

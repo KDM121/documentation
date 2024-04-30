@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/Bookstack",
+  "title": "Bookstack",
+  "description": "",
+  "source": "@site/docs/Docker Compose/Bookstack.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/Bookstack",
+  "permalink": "/docs/Docker Compose/Bookstack",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Authentik",
+    "permalink": "/docs/Docker Compose/Authentik"
+  },
+  "next": {
+    "title": "Dockge",
+    "permalink": "/docs/Docker Compose/Dockge"
+  }
+}

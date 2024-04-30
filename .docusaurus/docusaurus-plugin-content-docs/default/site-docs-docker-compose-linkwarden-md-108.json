@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/Linkwarden",
+  "title": "Linkwarden",
+  "description": "",
+  "source": "@site/docs/Docker Compose/Linkwarden.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/Linkwarden",
+  "permalink": "/docs/Docker Compose/Linkwarden",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ladder-Proxy",
+    "permalink": "/docs/Docker Compose/Ladder-Proxy"
+  },
+  "next": {
+    "title": "Maker-Management-Platform",
+    "permalink": "/docs/Docker Compose/Maker-Management-Platform"
+  }
+}

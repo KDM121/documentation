@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/NGINX web server",
+  "title": "NGINX web server",
+  "description": "Used for [[LXC Config]] with config.sh stored in ./html",
+  "source": "@site/docs/Docker Compose/NGINX web server.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/NGINX web server",
+  "permalink": "/docs/Docker Compose/NGINX web server",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Metube",
+    "permalink": "/docs/Docker Compose/Metube"
+  },
+  "next": {
+    "title": "Nextcloud",
+    "permalink": "/docs/Docker Compose/Nextcloud"
+  }
+}

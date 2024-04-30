@@ -1,0 +1,23 @@
+{
+  "id": "Linux/Flash ISO to USB",
+  "title": "Flash ISO to USB",
+  "description": "where if is the directory to the ISO and of is the USB stick with the drive letter of sdb",
+  "source": "@site/docs/Linux/Flash ISO to USB.md",
+  "sourceDirName": "Linux",
+  "slug": "/Linux/Flash ISO to USB",
+  "permalink": "/docs/Linux/Flash ISO to USB",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "FedoraRepoSetup",
+    "permalink": "/docs/Linux/FedoraRepoSetup"
+  },
+  "next": {
+    "title": "General",
+    "permalink": "/docs/Linux/General"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/IT-Tools",
+  "title": "IT-Tools",
+  "description": "",
+  "source": "@site/docs/Docker Compose/IT-Tools.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/IT-Tools",
+  "permalink": "/docs/Docker Compose/IT-Tools",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Homepage",
+    "permalink": "/docs/Docker Compose/Homepage"
+  },
+  "next": {
+    "title": "Ladder-Proxy",
+    "permalink": "/docs/Docker Compose/Ladder-Proxy"
+  }
+}

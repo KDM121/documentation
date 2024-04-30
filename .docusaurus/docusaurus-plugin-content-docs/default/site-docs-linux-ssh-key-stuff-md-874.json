@@ -1,0 +1,23 @@
+{
+  "id": "Linux/SSH key stuff",
+  "title": "SSH key stuff",
+  "description": "Generate the Key:",
+  "source": "@site/docs/Linux/SSH key stuff.md",
+  "sourceDirName": "Linux",
+  "slug": "/Linux/SSH key stuff",
+  "permalink": "/docs/Linux/SSH key stuff",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mount SMB share",
+    "permalink": "/docs/Linux/Mount SMB share"
+  },
+  "next": {
+    "title": "Setup Static IP and DNS Debian 12",
+    "permalink": "/docs/Linux/Setup Static IP and DNS Debian 12"
+  }
+}

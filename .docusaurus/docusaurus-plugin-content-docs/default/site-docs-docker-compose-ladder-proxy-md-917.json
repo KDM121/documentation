@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/Ladder-Proxy",
+  "title": "Ladder-Proxy",
+  "description": "",
+  "source": "@site/docs/Docker Compose/Ladder-Proxy.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/Ladder-Proxy",
+  "permalink": "/docs/Docker Compose/Ladder-Proxy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "IT-Tools",
+    "permalink": "/docs/Docker Compose/IT-Tools"
+  },
+  "next": {
+    "title": "Linkwarden",
+    "permalink": "/docs/Docker Compose/Linkwarden"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/Speedtest",
+  "title": "Speedtest",
+  "description": "Default username and password:",
+  "source": "@site/docs/Docker Compose/Speedtest.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/Speedtest",
+  "permalink": "/docs/Docker Compose/Speedtest",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pi-Hole",
+    "permalink": "/docs/Docker Compose/Pi-Hole"
+  },
+  "next": {
+    "title": "Stirling-PDF",
+    "permalink": "/docs/Docker Compose/Stirling-PDF"
+  }
+}

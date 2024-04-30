@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/WG-easy",
+  "title": "WG-easy",
+  "description": "",
+  "source": "@site/docs/Docker Compose/WG-easy.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/WG-easy",
+  "permalink": "/docs/Docker Compose/WG-easy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Uptime-Kuma",
+    "permalink": "/docs/Docker Compose/Uptime-Kuma"
+  },
+  "next": {
+    "title": "Watchtower",
+    "permalink": "/docs/Docker Compose/Watchtower"
+  }
+}

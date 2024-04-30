@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/General",
+  "title": "General",
+  "description": "To connect to a docker container from terminal run:",
+  "source": "@site/docs/Docker Compose/General.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/General",
+  "permalink": "/docs/Docker Compose/General",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Drawio",
+    "permalink": "/docs/Docker Compose/Drawio"
+  },
+  "next": {
+    "title": "Homarr",
+    "permalink": "/docs/Docker Compose/Homarr"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Linux/MC Paper 1.16.5 Setup",
+  "title": "MC Paper 1.16.5 Setup",
+  "description": "1.16.5 setup with paper",
+  "source": "@site/docs/Linux/MC Paper 1.16.5 Setup.md",
+  "sourceDirName": "Linux",
+  "slug": "/Linux/MC Paper 1.16.5 Setup",
+  "permalink": "/docs/Linux/MC Paper 1.16.5 Setup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lunar Client Setup",
+    "permalink": "/docs/Linux/Lunar Client Setup"
+  },
+  "next": {
+    "title": "Mount SMB share",
+    "permalink": "/docs/Linux/Mount SMB share"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Proxmox/PVE 8 Repositories",
+  "title": "PVE 8 Repositories",
+  "description": "From//enterprise.proxmox.com/debian/pve bookworm enterprise",
+  "source": "@site/docs/Proxmox/PVE 8 Repositories.md",
+  "sourceDirName": "Proxmox",
+  "slug": "/Proxmox/PVE 8 Repositories",
+  "permalink": "/docs/Proxmox/PVE 8 Repositories",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PVE 8 Add SMB share",
+    "permalink": "/docs/Proxmox/PVE 8 Add SMB share"
+  },
+  "next": {
+    "title": "Remove No Sub Pop-up",
+    "permalink": "/docs/Proxmox/Remove No Sub Pop-up"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/Drawio",
+  "title": "Drawio",
+  "description": "",
+  "source": "@site/docs/Docker Compose/Drawio.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/Drawio",
+  "permalink": "/docs/Docker Compose/Drawio",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dockge",
+    "permalink": "/docs/Docker Compose/Dockge"
+  },
+  "next": {
+    "title": "General",
+    "permalink": "/docs/Docker Compose/General"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/Metube",
+  "title": "Metube",
+  "description": "",
+  "source": "@site/docs/Docker Compose/Metube.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/Metube",
+  "permalink": "/docs/Docker Compose/Metube",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Maker-Management-Platform",
+    "permalink": "/docs/Docker Compose/Maker-Management-Platform"
+  },
+  "next": {
+    "title": "NGINX web server",
+    "permalink": "/docs/Docker Compose/NGINX web server"
+  }
+}

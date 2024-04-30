@@ -1,0 +1,23 @@
+{
+  "id": "Proxmox/Remove No Sub Pop-up",
+  "title": "Remove No Sub Pop-up",
+  "description": "In the Shell of the node run:",
+  "source": "@site/docs/Proxmox/Remove No Sub Pop-up.md",
+  "sourceDirName": "Proxmox",
+  "slug": "/Proxmox/Remove No Sub Pop-up",
+  "permalink": "/docs/Proxmox/Remove No Sub Pop-up",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PVE 8 Repositories",
+    "permalink": "/docs/Proxmox/PVE 8 Repositories"
+  },
+  "next": {
+    "title": "Batch Files to format Drives",
+    "permalink": "/docs/Windows/Batch files to format drives/"
+  }
+}

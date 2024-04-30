@@ -1,0 +1,23 @@
+{
+  "id": "Windows/Batch files to format drives/Batch Files to format Drives",
+  "title": "Batch Files to format Drives",
+  "description": "![[format as fat32.bat]]",
+  "source": "@site/docs/Windows/Batch files to format drives/Batch Files to format Drives.md",
+  "sourceDirName": "Windows/Batch files to format drives",
+  "slug": "/Windows/Batch files to format drives/",
+  "permalink": "/docs/Windows/Batch files to format drives/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Remove No Sub Pop-up",
+    "permalink": "/docs/Proxmox/Remove No Sub Pop-up"
+  },
+  "next": {
+    "title": "How to burn ISO to USB with CMD",
+    "permalink": "/docs/Windows/Batch files to format drives/How to burn ISO to USB with CMD"
+  }
+}

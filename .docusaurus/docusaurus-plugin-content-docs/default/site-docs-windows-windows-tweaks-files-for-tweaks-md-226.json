@@ -1,0 +1,23 @@
+{
+  "id": "Windows/Windows Tweaks/Files for Tweaks",
+  "title": "Files for Tweaks",
+  "description": "![[CTT - WinUtil.lnk]]![[window setup apps.txt.old]]![[win11classiccontextmenuhack.zip]]![[TaskbarEndTask.reg]]",
+  "source": "@site/docs/Windows/Windows Tweaks/Files for Tweaks.md",
+  "sourceDirName": "Windows/Windows Tweaks",
+  "slug": "/Windows/Windows Tweaks/Files for Tweaks",
+  "permalink": "/docs/Windows/Windows Tweaks/Files for Tweaks",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chris Titus Tech",
+    "permalink": "/docs/Windows/Windows Tweaks/Chris Titus Tech"
+  },
+  "next": {
+    "title": "Set up Quake Terminal",
+    "permalink": "/docs/Windows/Windows Tweaks/Set up Quake Terminal"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Windows/Windows Log Batch",
+  "title": "Windows Log Batch",
+  "description": "Windows Batch file to collect a lot of info on a system for Diagnosing issues",
+  "source": "@site/docs/Windows/Windows Log Batch.md",
+  "sourceDirName": "Windows",
+  "slug": "/Windows/Windows Log Batch",
+  "permalink": "/docs/Windows/Windows Log Batch",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Windows Keys",
+    "permalink": "/docs/Windows/Windows Keys"
+  },
+  "next": {
+    "title": "Block The Spot",
+    "permalink": "/docs/Windows/Windows Tweaks/Block The Spot"
+  }
+}

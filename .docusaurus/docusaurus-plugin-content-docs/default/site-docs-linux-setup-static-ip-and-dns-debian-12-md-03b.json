@@ -1,0 +1,23 @@
+{
+  "id": "Linux/Setup Static IP and DNS Debian 12",
+  "title": "Setup Static IP and DNS Debian 12",
+  "description": "run ip a to find the name of the network interface:",
+  "source": "@site/docs/Linux/Setup Static IP and DNS Debian 12.md",
+  "sourceDirName": "Linux",
+  "slug": "/Linux/Setup Static IP and DNS Debian 12",
+  "permalink": "/docs/Linux/Setup Static IP and DNS Debian 12",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SSH key stuff",
+    "permalink": "/docs/Linux/SSH key stuff"
+  },
+  "next": {
+    "title": "Debian VM-LXC setup w dockge",
+    "permalink": "/docs/Proxmox/Debian VM-LXC setup w dockge"
+  }
+}

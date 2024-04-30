@@ -1,0 +1,17 @@
+
+
+```yaml
+Homarr
+version: '3'
+services:
+ homarr:
+ container_name: homarr
+ image: ghcr.io/ajnart/homarr:latest
+ restart: unless-stopped
+ volumes:
+ - ./homarr/configs:/app/data/configs
+ - ./homarr/icons:/app/public/icons
+ - /var/run/docker.sock:/var/run/docker.sock
+ ports:
+ - '7575:7575'
+```

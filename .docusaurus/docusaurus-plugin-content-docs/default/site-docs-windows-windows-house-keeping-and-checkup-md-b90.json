@@ -1,0 +1,23 @@
+{
+  "id": "Windows/Windows House Keeping and checkup",
+  "title": "Windows House Keeping and checkup",
+  "description": "![[windows repair.bat]]",
+  "source": "@site/docs/Windows/Windows House Keeping and checkup.md",
+  "sourceDirName": "Windows",
+  "slug": "/Windows/Windows House Keeping and checkup",
+  "permalink": "/docs/Windows/Windows House Keeping and checkup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Win Run Commands",
+    "permalink": "/docs/Windows/Win Run Commands"
+  },
+  "next": {
+    "title": "Windows Keys",
+    "permalink": "/docs/Windows/Windows Keys"
+  }
+}

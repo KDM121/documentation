@@ -1,0 +1,1 @@
+![[CTT.ps1]]irm christitus.com/win | iex

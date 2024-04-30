@@ -1,0 +1,23 @@
+{
+  "id": "Windows/Windows Keys",
+  "title": "Windows Keys",
+  "description": "Get current windows Key",
+  "source": "@site/docs/Windows/Windows Keys.md",
+  "sourceDirName": "Windows",
+  "slug": "/Windows/Windows Keys",
+  "permalink": "/docs/Windows/Windows Keys",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Windows House Keeping and checkup",
+    "permalink": "/docs/Windows/Windows House Keeping and checkup"
+  },
+  "next": {
+    "title": "Windows Log Batch",
+    "permalink": "/docs/Windows/Windows Log Batch"
+  }
+}

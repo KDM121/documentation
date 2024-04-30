@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/Zipline",
+  "title": "Zipline",
+  "description": "",
+  "source": "@site/docs/Docker Compose/Zipline.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/Zipline",
+  "permalink": "/docs/Docker Compose/Zipline",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Web-Proxy",
+    "permalink": "/docs/Docker Compose/Web-Proxy"
+  },
+  "next": {
+    "title": "FedoraRepoSetup",
+    "permalink": "/docs/Linux/FedoraRepoSetup"
+  }
+}

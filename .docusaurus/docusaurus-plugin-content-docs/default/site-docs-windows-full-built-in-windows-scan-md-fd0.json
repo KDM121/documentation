@@ -1,0 +1,23 @@
+{
+  "id": "Windows/Full Built-In Windows Scan",
+  "title": "Full Built-In Windows Scan",
+  "description": "open run and type `",
+  "source": "@site/docs/Windows/Full Built-In Windows Scan.md",
+  "sourceDirName": "Windows",
+  "slug": "/Windows/Full Built-In Windows Scan",
+  "permalink": "/docs/Windows/Full Built-In Windows Scan",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DNS changer Batch Files",
+    "permalink": "/docs/Windows/DNS changer bat/DNS changer Batch Files"
+  },
+  "next": {
+    "title": "Setup 11 without networking",
+    "permalink": "/docs/Windows/Setup 11 without networking"
+  }
+}

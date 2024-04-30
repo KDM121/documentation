@@ -1,0 +1,23 @@
+{
+  "id": "Linux/Lunar Client Setup",
+  "title": "Lunar Client Setup",
+  "description": "Lunar client install",
+  "source": "@site/docs/Linux/Lunar Client Setup.md",
+  "sourceDirName": "Linux",
+  "slug": "/Linux/Lunar Client Setup",
+  "permalink": "/docs/Linux/Lunar Client Setup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "House Keeping",
+    "permalink": "/docs/Linux/House Keeping"
+  },
+  "next": {
+    "title": "MC Paper 1.16.5 Setup",
+    "permalink": "/docs/Linux/MC Paper 1.16.5 Setup"
+  }
+}

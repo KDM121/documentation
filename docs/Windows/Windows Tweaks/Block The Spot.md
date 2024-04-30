@@ -1,0 +1,1 @@
+![[Windows/Windows Tweaks/BlockTheSpot.bat]]

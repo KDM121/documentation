@@ -1,0 +1,23 @@
+{
+  "id": "Proxmox/Debian VM-LXC setup w dockge",
+  "title": "Debian VM-LXC setup w dockge",
+  "description": "How to setup a Debian VM/ LXC",
+  "source": "@site/docs/Proxmox/Debian VM-LXC setup w dockge.md",
+  "sourceDirName": "Proxmox",
+  "slug": "/Proxmox/Debian VM-LXC setup w dockge",
+  "permalink": "/docs/Proxmox/Debian VM-LXC setup w dockge",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup Static IP and DNS Debian 12",
+    "permalink": "/docs/Linux/Setup Static IP and DNS Debian 12"
+  },
+  "next": {
+    "title": "Full Disk Passthrough",
+    "permalink": "/docs/Proxmox/Full Disk Passthrough"
+  }
+}

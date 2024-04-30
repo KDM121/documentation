@@ -1,0 +1,23 @@
+{
+  "id": "Windows/Batch files to format drives/How to burn ISO to USB with CMD",
+  "title": "How to burn ISO to USB with CMD",
+  "description": "USB Harddrive",
+  "source": "@site/docs/Windows/Batch files to format drives/How to burn ISO to USB with CMD.md",
+  "sourceDirName": "Windows/Batch files to format drives",
+  "slug": "/Windows/Batch files to format drives/How to burn ISO to USB with CMD",
+  "permalink": "/docs/Windows/Batch files to format drives/How to burn ISO to USB with CMD",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Batch Files to format Drives",
+    "permalink": "/docs/Windows/Batch files to format drives/"
+  },
+  "next": {
+    "title": "DNS changer Batch Files",
+    "permalink": "/docs/Windows/DNS changer bat/DNS changer Batch Files"
+  }
+}

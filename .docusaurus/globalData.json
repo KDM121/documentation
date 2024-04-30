@@ -1,0 +1,288 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "Docker Compose/Authentik",
+          "docs": [
+            {
+              "id": "Docker Compose/Authentik",
+              "path": "/docs/Docker Compose/Authentik",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Bookstack",
+              "path": "/docs/Docker Compose/Bookstack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Dockge",
+              "path": "/docs/Docker Compose/Dockge",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Drawio",
+              "path": "/docs/Docker Compose/Drawio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/General",
+              "path": "/docs/Docker Compose/General",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Homarr",
+              "path": "/docs/Docker Compose/Homarr",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Homepage",
+              "path": "/docs/Docker Compose/Homepage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/IT-Tools",
+              "path": "/docs/Docker Compose/IT-Tools",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Ladder-Proxy",
+              "path": "/docs/Docker Compose/Ladder-Proxy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Linkwarden",
+              "path": "/docs/Docker Compose/Linkwarden",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Maker-Management-Platform",
+              "path": "/docs/Docker Compose/Maker-Management-Platform",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Metube",
+              "path": "/docs/Docker Compose/Metube",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Nextcloud",
+              "path": "/docs/Docker Compose/Nextcloud",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/NGINX web server",
+              "path": "/docs/Docker Compose/NGINX web server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Nginx-Proxy-Manager",
+              "path": "/docs/Docker Compose/Nginx-Proxy-Manager",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Pi-Hole",
+              "path": "/docs/Docker Compose/Pi-Hole",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Speedtest",
+              "path": "/docs/Docker Compose/Speedtest",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Stirling-PDF",
+              "path": "/docs/Docker Compose/Stirling-PDF",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Uptime-Kuma",
+              "path": "/docs/Docker Compose/Uptime-Kuma",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Watchtower",
+              "path": "/docs/Docker Compose/Watchtower",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Web-Proxy",
+              "path": "/docs/Docker Compose/Web-Proxy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/WG-easy",
+              "path": "/docs/Docker Compose/WG-easy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Compose/Zipline",
+              "path": "/docs/Docker Compose/Zipline",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Linux/FedoraRepoSetup",
+              "path": "/docs/Linux/FedoraRepoSetup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Linux/Flash ISO to USB",
+              "path": "/docs/Linux/Flash ISO to USB",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Linux/General",
+              "path": "/docs/Linux/General",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Linux/House Keeping",
+              "path": "/docs/Linux/House Keeping",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Linux/Lunar Client Setup",
+              "path": "/docs/Linux/Lunar Client Setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Linux/MC Paper 1.16.5 Setup",
+              "path": "/docs/Linux/MC Paper 1.16.5 Setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Linux/Mount SMB share",
+              "path": "/docs/Linux/Mount SMB share",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Linux/Setup Static IP and DNS Debian 12",
+              "path": "/docs/Linux/Setup Static IP and DNS Debian 12",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Linux/SSH key stuff",
+              "path": "/docs/Linux/SSH key stuff",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Proxmox/Debian VM-LXC setup w dockge",
+              "path": "/docs/Proxmox/Debian VM-LXC setup w dockge",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Proxmox/Full Disk Passthrough",
+              "path": "/docs/Proxmox/Full Disk Passthrough",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Proxmox/General",
+              "path": "/docs/Proxmox/General",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Proxmox/LXC Config",
+              "path": "/docs/Proxmox/LXC Config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Proxmox/PVE 8 Add SMB share",
+              "path": "/docs/Proxmox/PVE 8 Add SMB share",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Proxmox/PVE 8 Repositories",
+              "path": "/docs/Proxmox/PVE 8 Repositories",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Proxmox/Remove No Sub Pop-up",
+              "path": "/docs/Proxmox/Remove No Sub Pop-up",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Windows/Batch files to format drives/Batch Files to format Drives",
+              "path": "/docs/Windows/Batch files to format drives/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Windows/Batch files to format drives/How to burn ISO to USB with CMD",
+              "path": "/docs/Windows/Batch files to format drives/How to burn ISO to USB with CMD",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Windows/DNS changer bat/DNS changer Batch Files",
+              "path": "/docs/Windows/DNS changer bat/DNS changer Batch Files",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Windows/Full Built-In Windows Scan",
+              "path": "/docs/Windows/Full Built-In Windows Scan",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Windows/Setup 11 without networking",
+              "path": "/docs/Windows/Setup 11 without networking",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Windows/Win Run Commands",
+              "path": "/docs/Windows/Win Run Commands",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Windows/Windows House Keeping and checkup",
+              "path": "/docs/Windows/Windows House Keeping and checkup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Windows/Windows Keys",
+              "path": "/docs/Windows/Windows Keys",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Windows/Windows Log Batch",
+              "path": "/docs/Windows/Windows Log Batch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Windows/Windows Tweaks/Block The Spot",
+              "path": "/docs/Windows/Windows Tweaks/Block The Spot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Windows/Windows Tweaks/Chris Titus Tech",
+              "path": "/docs/Windows/Windows Tweaks/Chris Titus Tech",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Windows/Windows Tweaks/Files for Tweaks",
+              "path": "/docs/Windows/Windows Tweaks/Files for Tweaks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Windows/Windows Tweaks/Set up Quake Terminal",
+              "path": "/docs/Windows/Windows Tweaks/Set up Quake Terminal",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/Docker Compose/Authentik",
+                "label": "Docker Compose/Authentik"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

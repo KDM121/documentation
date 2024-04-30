@@ -1,0 +1,23 @@
+{
+  "id": "Windows/DNS changer bat/DNS changer Batch Files",
+  "title": "DNS changer Batch Files",
+  "description": "![[piholedns.bat]]",
+  "source": "@site/docs/Windows/DNS changer bat/DNS changer Batch Files.md",
+  "sourceDirName": "Windows/DNS changer bat",
+  "slug": "/Windows/DNS changer bat/DNS changer Batch Files",
+  "permalink": "/docs/Windows/DNS changer bat/DNS changer Batch Files",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to burn ISO to USB with CMD",
+    "permalink": "/docs/Windows/Batch files to format drives/How to burn ISO to USB with CMD"
+  },
+  "next": {
+    "title": "Full Built-In Windows Scan",
+    "permalink": "/docs/Windows/Full Built-In Windows Scan"
+  }
+}

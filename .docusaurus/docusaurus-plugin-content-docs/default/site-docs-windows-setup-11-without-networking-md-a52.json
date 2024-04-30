@@ -1,0 +1,23 @@
+{
+  "id": "Windows/Setup 11 without networking",
+  "title": "Setup 11 without networking",
+  "description": "Shift + F10 to open CMD from setup",
+  "source": "@site/docs/Windows/Setup 11 without networking.md",
+  "sourceDirName": "Windows",
+  "slug": "/Windows/Setup 11 without networking",
+  "permalink": "/docs/Windows/Setup 11 without networking",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Full Built-In Windows Scan",
+    "permalink": "/docs/Windows/Full Built-In Windows Scan"
+  },
+  "next": {
+    "title": "Win Run Commands",
+    "permalink": "/docs/Windows/Win Run Commands"
+  }
+}

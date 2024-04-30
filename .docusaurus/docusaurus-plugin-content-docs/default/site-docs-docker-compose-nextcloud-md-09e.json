@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/Nextcloud",
+  "title": "Nextcloud",
+  "description": "If you are using Cloudflare Disable the proxy whilst the domain check is happening. Re-enable it after Nextcloud has deployed correctly when using a reverse proxy.",
+  "source": "@site/docs/Docker Compose/Nextcloud.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/Nextcloud",
+  "permalink": "/docs/Docker Compose/Nextcloud",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NGINX web server",
+    "permalink": "/docs/Docker Compose/NGINX web server"
+  },
+  "next": {
+    "title": "Nginx-Proxy-Manager",
+    "permalink": "/docs/Docker Compose/Nginx-Proxy-Manager"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Windows/Windows Tweaks/Chris Titus Tech",
+  "title": "Chris Titus Tech",
+  "description": "![[CTT.ps1]]irm christitus.com/win | iex",
+  "source": "@site/docs/Windows/Windows Tweaks/Chris Titus Tech.md",
+  "sourceDirName": "Windows/Windows Tweaks",
+  "slug": "/Windows/Windows Tweaks/Chris Titus Tech",
+  "permalink": "/docs/Windows/Windows Tweaks/Chris Titus Tech",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Block The Spot",
+    "permalink": "/docs/Windows/Windows Tweaks/Block The Spot"
+  },
+  "next": {
+    "title": "Files for Tweaks",
+    "permalink": "/docs/Windows/Windows Tweaks/Files for Tweaks"
+  }
+}

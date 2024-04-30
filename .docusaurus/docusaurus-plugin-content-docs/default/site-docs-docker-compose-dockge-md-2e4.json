@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/Dockge",
+  "title": "Dockge",
+  "description": "Replace USER with username of user",
+  "source": "@site/docs/Docker Compose/Dockge.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/Dockge",
+  "permalink": "/docs/Docker Compose/Dockge",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bookstack",
+    "permalink": "/docs/Docker Compose/Bookstack"
+  },
+  "next": {
+    "title": "Drawio",
+    "permalink": "/docs/Docker Compose/Drawio"
+  }
+}

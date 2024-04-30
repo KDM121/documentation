@@ -1,0 +1,3 @@
+![[piholedns.bat]]
+
+![[cloudflare.bat]]

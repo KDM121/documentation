@@ -1,0 +1,23 @@
+{
+  "id": "Linux/FedoraRepoSetup",
+  "title": "FedoraRepoSetup",
+  "description": "Run all 3 commands to enable correct repositories on fedora workstation",
+  "source": "@site/docs/Linux/FedoraRepoSetup.md",
+  "sourceDirName": "Linux",
+  "slug": "/Linux/FedoraRepoSetup",
+  "permalink": "/docs/Linux/FedoraRepoSetup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Zipline",
+    "permalink": "/docs/Docker Compose/Zipline"
+  },
+  "next": {
+    "title": "Flash ISO to USB",
+    "permalink": "/docs/Linux/Flash ISO to USB"
+  }
+}

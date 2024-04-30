@@ -1,0 +1,19 @@
+{
+  "id": "Docker Compose/Authentik",
+  "title": "Authentik",
+  "description": "",
+  "source": "@site/docs/Docker Compose/Authentik.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/Authentik",
+  "permalink": "/docs/Docker Compose/Authentik",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Bookstack",
+    "permalink": "/docs/Docker Compose/Bookstack"
+  }
+}

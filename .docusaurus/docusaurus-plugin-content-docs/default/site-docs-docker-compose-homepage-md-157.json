@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/Homepage",
+  "title": "Homepage",
+  "description": "add the following labels to another compose file to add it to Homepage",
+  "source": "@site/docs/Docker Compose/Homepage.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/Homepage",
+  "permalink": "/docs/Docker Compose/Homepage",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Homarr",
+    "permalink": "/docs/Docker Compose/Homarr"
+  },
+  "next": {
+    "title": "IT-Tools",
+    "permalink": "/docs/Docker Compose/IT-Tools"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Docker Compose/Watchtower",
+  "title": "Watchtower",
+  "description": "add this label to the bottom of another compose file to exclude from watchtower updates:",
+  "source": "@site/docs/Docker Compose/Watchtower.md",
+  "sourceDirName": "Docker Compose",
+  "slug": "/Docker Compose/Watchtower",
+  "permalink": "/docs/Docker Compose/Watchtower",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "WG-easy",
+    "permalink": "/docs/Docker Compose/WG-easy"
+  },
+  "next": {
+    "title": "Web-Proxy",
+    "permalink": "/docs/Docker Compose/Web-Proxy"
+  }
+}
