@@ -10,13 +10,21 @@ sudo apt install nfs-common
 ```bash
 sudo mkdir /PATH/TO/MOUNTPOINT
 ```
-
-3: mount the nfs share
+3:
 ```bash
-sudo mount -t nfs 192.168.1.2:/share /PATH/TO/MOUNTPOINT
+sudo nano /etc/fstab
+```
+add the following to the file:
+```bash
+192.168.1.2:/share /PATH/TO/MOUNTPOINT nfs defaults 0 0
+```
+4: mount the share
+
+```bash
+sudo mount -a
 ```
 
-4: check if it is mounted
+5: check if it is mounted
 ```bash
 df -h
 ```
@@ -34,14 +42,3 @@ tmpfs              3.1G  180K  3.1G   1% /run/user/1000
 192.168.1.2:/share  469G     0  469G   0% /PATH/TO/MOUNTPOINT
 ```
 (the last line is the nfs share)
-
-5: persist mount across reboots
-
-```bash
-sudo nano /etc/fstab
-```
-```bash
-192.168.1.2:/share /PATH/TO/MOUNTPOINT nfs defaults 0 0
-```
-
-save and exit
