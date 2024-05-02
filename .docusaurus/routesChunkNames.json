@@ -198,17 +198,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-f79": {
+  "/docs-650": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docse-97-461"
     }
   },
-  "/docs-c6d": {
+  "/docs-fae": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---docs-935-398"
   },
-  "/docs-ed1": {
+  "/docs-2f5": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Docker Compose/Authentik-b76": {
@@ -330,6 +330,10 @@
   "/docs/Linux/Mount SMB share-865": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-linux-mount-smb-share-346-3fc"
+  },
+  "/docs/Linux/NFS-mount-006": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linux-nfs-mount-389-a94"
   },
   "/docs/Linux/Setup Static IP and DNS Debian 12-a5d": {
     "__comp": "__comp---theme-doc-item-178-a40",

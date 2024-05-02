@@ -235,6 +235,13 @@
           },
           {
             "type": "link",
+            "label": "NFS-mount",
+            "href": "/docs/Linux/NFS-mount",
+            "docId": "Linux/NFS-mount",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "SSH key stuff",
             "href": "/docs/Linux/SSH key stuff",
             "docId": "Linux/SSH key stuff",
@@ -604,6 +611,12 @@
       "id": "Linux/Mount SMB share",
       "title": "Mount SMB share",
       "description": "make sure that the folder that is \"/mnt/pve/nas\" in the example already exists otherwise it will fail.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Linux/NFS-mount": {
+      "id": "Linux/NFS-mount",
+      "title": "NFS-mount",
+      "description": "1",
       "sidebar": "tutorialSidebar"
     },
     "Linux/Setup Static IP and DNS Debian 12": {

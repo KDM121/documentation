@@ -161,6 +161,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Linux/NFS-mount",
+              "path": "/docs/Linux/NFS-mount",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Linux/Setup Static IP and DNS Debian 12",
               "path": "/docs/Linux/Setup Static IP and DNS Debian 12",
               "sidebar": "tutorialSidebar"

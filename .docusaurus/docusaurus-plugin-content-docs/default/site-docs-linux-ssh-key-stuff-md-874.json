@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Mount SMB share",
-    "permalink": "/docs/Linux/Mount SMB share"
+    "title": "NFS-mount",
+    "permalink": "/docs/Linux/NFS-mount"
   },
   "next": {
     "title": "Setup Static IP and DNS Debian 12",

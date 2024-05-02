@@ -1,0 +1,23 @@
+{
+  "id": "Linux/NFS-mount",
+  "title": "NFS-mount",
+  "description": "1",
+  "source": "@site/docs/Linux/NFS-mount.md",
+  "sourceDirName": "Linux",
+  "slug": "/Linux/NFS-mount",
+  "permalink": "/docs/Linux/NFS-mount",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mount SMB share",
+    "permalink": "/docs/Linux/Mount SMB share"
+  },
+  "next": {
+    "title": "SSH key stuff",
+    "permalink": "/docs/Linux/SSH key stuff"
+  }
+}

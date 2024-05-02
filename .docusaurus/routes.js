@@ -99,15 +99,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'f79'),
+    component: ComponentCreator('/docs', '650'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'c6d'),
+        component: ComponentCreator('/docs', 'fae'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'ed1'),
+            component: ComponentCreator('/docs', '2f5'),
             routes: [
               {
                 path: '/docs/Docker Compose/Authentik',
@@ -286,6 +286,12 @@ export default [
               {
                 path: '/docs/Linux/Mount SMB share',
                 component: ComponentCreator('/docs/Linux/Mount SMB share', '865'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Linux/NFS-mount',
+                component: ComponentCreator('/docs/Linux/NFS-mount', '006'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
