@@ -73,7 +73,7 @@ export default {
           "items": [
             {
               "label": "Documents",
-              "to": "/docs/intro"
+              "to": "/docs"
             },
             {
               "label": "Blog",
@@ -99,7 +99,7 @@ export default {
           "items": [
             {
               "label": "Website",
-              "to": "https://kieranmcdonnell.com"
+              "href": "https://kieranmcdonnell.com"
             },
             {
               "label": "Support",

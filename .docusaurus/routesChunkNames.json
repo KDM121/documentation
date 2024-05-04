@@ -80,17 +80,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-dcd": {
+  "/docs-56a": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docse-97-461"
     }
   },
-  "/docs-f3d": {
+  "/docs-35f": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---docs-935-398"
   },
-  "/docs-bdd": {
+  "/docs-b02": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Docker Compose/Authentik-b76": {
@@ -184,6 +184,10 @@
   "/docs/Docker Compose/Zipline-914": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docker-compose-ziplinea-2-c-8aa"
+  },
+  "/docs/intro-61d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
   },
   "/docs/Linux/docker install script-527": {
     "__comp": "__comp---theme-doc-item-178-a40",

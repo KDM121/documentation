@@ -436,6 +436,13 @@
             ]
           }
         ]
+      },
+      {
+        "type": "link",
+        "label": "Hello",
+        "href": "/docs/intro",
+        "docId": "intro",
+        "unlisted": false
       }
     ]
   },
@@ -576,6 +583,12 @@
       "id": "Docker Compose/Zipline",
       "title": "Zipline",
       "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Hello",
+      "description": "Welcome to the documentation site.",
       "sidebar": "tutorialSidebar"
     },
     "Linux/docker install script": {

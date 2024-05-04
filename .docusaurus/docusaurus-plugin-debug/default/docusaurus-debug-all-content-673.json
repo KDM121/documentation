@@ -543,6 +543,25 @@
               }
             },
             {
+              "id": "intro",
+              "title": "Hello",
+              "description": "Welcome to the documentation site.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Set up Quake Terminal",
+                "permalink": "/docs/Windows/Windows Tweaks/Set up Quake Terminal"
+              }
+            },
+            {
               "id": "Linux/docker install script",
               "title": "docker install script",
               "description": "you can download the script using",
@@ -1249,6 +1268,10 @@
               "previous": {
                 "title": "Files for Tweaks",
                 "permalink": "/docs/Windows/Windows Tweaks/Files for Tweaks"
+              },
+              "next": {
+                "title": "Hello",
+                "permalink": "/docs/intro"
               }
             }
           ],
@@ -1526,6 +1549,10 @@
                     ]
                   }
                 ]
+              },
+              {
+                "type": "doc",
+                "id": "intro"
               }
             ]
           }
@@ -1544,7 +1571,7 @@
             "source": "@site/blog/welcome/index.md",
             "title": "Welcome",
             "description": "Hello,",
-            "date": "2024-04-29T21:23:01.972Z",
+            "date": "2024-05-04T21:56:36.000Z",
             "tags": [],
             "readingTime": 0.21,
             "hasTruncateMarker": false,

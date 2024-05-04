@@ -59,15 +59,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'dcd'),
+    component: ComponentCreator('/docs', '56a'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'f3d'),
+        component: ComponentCreator('/docs', '35f'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'bdd'),
+            component: ComponentCreator('/docs', 'b02'),
             routes: [
               {
                 path: '/docs/Docker Compose/Authentik',
@@ -204,6 +204,12 @@ export default [
               {
                 path: '/docs/Docker Compose/Zipline',
                 component: ComponentCreator('/docs/Docker Compose/Zipline', '914'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/intro',
+                component: ComponentCreator('/docs/intro', '61d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

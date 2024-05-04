@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: 'Documents',
-                to: '/docs/intro',
+                to: '/docs',
               },
               {
                 label: 'Blog',
@@ -120,7 +120,7 @@ const config = {
             items: [
               {
                 label: 'Website',
-                to: 'https://kieranmcdonnell.com',
+                href: 'https://kieranmcdonnell.com',
               },
               {
                 label: 'Support',

@@ -126,6 +126,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Linux/docker install script",
               "path": "/docs/Linux/docker install script",
               "sidebar": "tutorialSidebar"
