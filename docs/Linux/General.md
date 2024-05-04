@@ -1,4 +1,21 @@
-check installed OS 
+# Generic command for linux
+
+
+### check installed OS 
 ```bash
 cat /etc/os-release
+```
+
+### check open ports
+
+```bash
+sudo ss -tunlp
+```
+OR
+```bash
+sudo netstat -tnlp
+```
+For a specific port
+```bash
+sudo lsof -nP -iTCP:3306
 ```
