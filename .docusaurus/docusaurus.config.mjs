@@ -53,8 +53,8 @@ export default {
           "label": "Documents"
         },
         {
-          "to": "/guides",
-          "label": "Guides",
+          "to": "/blog",
+          "label": "Blog",
           "position": "left"
         },
         {
@@ -76,8 +76,8 @@ export default {
               "to": "/docs/intro"
             },
             {
-              "label": "Guides",
-              "to": "/guides"
+              "label": "Blog",
+              "to": "/blog"
             }
           ]
         },

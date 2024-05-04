@@ -4,56 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Documentation',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This site primarily hosts documentation for projects 
+        that i run/ have run in my homelab. It acts as a 
+        centralised knowledgebase for me.
       </>
     )
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Reliability',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.  
+        There is no guarantee than any information on this 
+        site is up to date or even correct, it is used for 
+        me to reference for projects and services that i run.
       </>
     )
   },
   {
-    title: 'Powered by React',
+    title: 'Commands',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    )
-  },
-  {
-    title: 'Focus on What Matters',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.  
-      </>
-    )
-  },
-  {
-    title: 'Focus on What Matters',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.  
-      </>
-    )
-  },
-  {
-    title: 'Focus on What Matters',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.  
+        There should be various useful code snippets and 
+        commands on this site to help with running tasks 
+        on linux and windows machines.
       </>
     )
   },

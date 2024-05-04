@@ -78,7 +78,7 @@ const config = {
             position: 'left',
             label: 'Documents',
           },
-          {to: '/guides', label: 'Guides', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/KDM121/',
             label: 'GitHub',
@@ -97,8 +97,8 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: 'Guides',
-                to: '/guides',
+                label: 'Blog',
+                to: '/blog',
               },
             ],
           },

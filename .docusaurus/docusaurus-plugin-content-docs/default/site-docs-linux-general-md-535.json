@@ -1,6 +1,6 @@
 {
   "id": "Linux/General",
-  "title": "General",
+  "title": "Generic command for linux",
   "description": "check installed OS",
   "source": "@site/docs/Linux/General.md",
   "sourceDirName": "Linux",

@@ -1,0 +1,23 @@
+{
+  "id": "Linux/docker install script",
+  "title": "docker install script",
+  "description": "you can download the script using",
+  "source": "@site/docs/Linux/docker install script.md",
+  "sourceDirName": "Linux",
+  "slug": "/Linux/docker install script",
+  "permalink": "/docs/Linux/docker install script",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup Static IP and DNS Debian 12",
+    "permalink": "/docs/Linux/Setup Static IP and DNS Debian 12"
+  },
+  "next": {
+    "title": "Debian VM-LXC setup w dockge",
+    "permalink": "/docs/Proxmox/Debian VM-LXC setup w dockge"
+  }
+}

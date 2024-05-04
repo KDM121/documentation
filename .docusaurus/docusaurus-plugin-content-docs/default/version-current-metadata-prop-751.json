@@ -200,7 +200,7 @@
           },
           {
             "type": "link",
-            "label": "General",
+            "label": "Generic command for linux",
             "href": "/docs/Linux/General",
             "docId": "Linux/General",
             "unlisted": false
@@ -252,6 +252,13 @@
             "label": "Setup Static IP and DNS Debian 12",
             "href": "/docs/Linux/Setup Static IP and DNS Debian 12",
             "docId": "Linux/Setup Static IP and DNS Debian 12",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "docker install script",
+            "href": "/docs/Linux/docker install script",
+            "docId": "Linux/docker install script",
             "unlisted": false
           }
         ]
@@ -571,6 +578,12 @@
       "description": "",
       "sidebar": "tutorialSidebar"
     },
+    "Linux/docker install script": {
+      "id": "Linux/docker install script",
+      "title": "docker install script",
+      "description": "you can download the script using",
+      "sidebar": "tutorialSidebar"
+    },
     "Linux/FedoraRepoSetup": {
       "id": "Linux/FedoraRepoSetup",
       "title": "FedoraRepoSetup",
@@ -585,7 +598,7 @@
     },
     "Linux/General": {
       "id": "Linux/General",
-      "title": "General",
+      "title": "Generic command for linux",
       "description": "check installed OS",
       "sidebar": "tutorialSidebar"
     },

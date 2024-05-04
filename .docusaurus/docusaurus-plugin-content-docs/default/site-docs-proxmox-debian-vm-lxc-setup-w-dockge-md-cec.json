@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Setup Static IP and DNS Debian 12",
-    "permalink": "/docs/Linux/Setup Static IP and DNS Debian 12"
+    "title": "docker install script",
+    "permalink": "/docs/Linux/docker install script"
   },
   "next": {
     "title": "Full Disk Passthrough",

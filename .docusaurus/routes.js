@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'bb3'),
+    component: ComponentCreator('/blog', 'b5f'),
     exact: true
   },
   {
@@ -48,48 +48,8 @@ export default [
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', 'a2d'),
-    exact: true
-  },
-  {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '6f1'),
-    exact: true
-  },
-  {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', '733'),
-    exact: true
-  },
-  {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', 'f77'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', 'd07'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '154'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '666'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '9f6'),
-    exact: true
-  },
-  {
     path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', '8ee'),
+    component: ComponentCreator('/blog/welcome', '1dd'),
     exact: true
   },
   {
@@ -99,15 +59,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '650'),
+    component: ComponentCreator('/docs', 'dcd'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'fae'),
+        component: ComponentCreator('/docs', 'f3d'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '2f5'),
+            component: ComponentCreator('/docs', 'bdd'),
             routes: [
               {
                 path: '/docs/Docker Compose/Authentik',
@@ -244,6 +204,12 @@ export default [
               {
                 path: '/docs/Docker Compose/Zipline',
                 component: ComponentCreator('/docs/Docker Compose/Zipline', '914'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Linux/docker install script',
+                component: ComponentCreator('/docs/Linux/docker install script', '527'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

@@ -17,7 +17,7 @@
     "permalink": "/docs/Linux/SSH key stuff"
   },
   "next": {
-    "title": "Debian VM-LXC setup w dockge",
-    "permalink": "/docs/Proxmox/Debian VM-LXC setup w dockge"
+    "title": "docker install script",
+    "permalink": "/docs/Linux/docker install script"
   }
 }
