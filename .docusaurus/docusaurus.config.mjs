@@ -11,6 +11,7 @@ export default {
   "baseUrl": "/",
   "organizationName": "KDM121",
   "projectName": "documentation",
+  "trailingSlash": false,
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://docs.kieranmcdonnell.com/blog</id>
+    <title>Kieran's Documentation Blog</title>
+    <updated>2024-05-04T21:56:36.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://docs.kieranmcdonnell.com/blog"/>
+    <subtitle>Kieran's Documentation Blog</subtitle>
+    <icon>https://docs.kieranmcdonnell.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://docs.kieranmcdonnell.com/blog/welcome</id>
+        <link href="https://docs.kieranmcdonnell.com/blog/welcome"/>
+        <updated>2024-05-04T21:56:36.000Z</updated>
+        <summary type="html"><![CDATA[Hello,]]></summary>
+        <content type="html"><![CDATA[<p>Hello,</p>
+<p>This is where i may eventually upload guides/ tutorials on how to
+recreate some of the projects that i have created.</p>
+<p>As for now,
+all of the content is within the docs so I would recommend going
+there for some content.</p>]]></content>
+        <author>
+            <name>Kieran McDonnell</name>
+            <uri>https://github.com/KDM121</uri>
+        </author>
+    </entry>
+</feed>

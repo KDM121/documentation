@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'e1b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '167'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'f83'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '9d4'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'd7b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '1be'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '22f'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog', 'b5f'),
     exact: true
@@ -59,15 +24,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '56a'),
+    component: ComponentCreator('/docs', '52d'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '35f'),
+        component: ComponentCreator('/docs', '7c6'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'b02'),
+            component: ComponentCreator('/docs', 'c19'),
             routes: [
               {
                 path: '/docs/Docker Compose/Authentik',
@@ -322,8 +287,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Windows/Batch files to format drives/',
-                component: ComponentCreator('/docs/Windows/Batch files to format drives/', '8a9'),
+                path: '/docs/Windows/Batch files to format drives',
+                component: ComponentCreator('/docs/Windows/Batch files to format drives', '0d4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
