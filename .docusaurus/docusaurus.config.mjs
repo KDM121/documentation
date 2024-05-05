@@ -51,7 +51,8 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Documents"
+          "label": "Documents",
+          "href": "/docs/intro"
         },
         {
           "to": "/blog",
@@ -74,7 +75,7 @@ export default {
           "items": [
             {
               "label": "Documents",
-              "to": "/docs"
+              "to": "/docs/intro"
             },
             {
               "label": "Blog",

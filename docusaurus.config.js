@@ -64,6 +64,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true, // set to true to hide the switch button
+         respectPrefersColorScheme: false, // set to false to disable the dark mode toggle
+      },
       // Replace with your project's social card
       image: 'img/favicon.ico',
       navbar: {
@@ -78,6 +83,7 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Documents',
+            href: "/docs/intro"
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -95,7 +101,7 @@ const config = {
             items: [
               {
                 label: 'Documents',
-                to: '/docs',
+                to: '/docs/intro',
               },
               {
                 label: 'Blog',
