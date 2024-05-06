@@ -19,3 +19,10 @@ For a specific port
 ```bash
 sudo lsof -nP -iTCP:3306
 ```
+
+
+### docker container statistics
+
+```bash
+docker stats
+```
