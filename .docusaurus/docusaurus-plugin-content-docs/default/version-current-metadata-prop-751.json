@@ -317,6 +317,13 @@
             "href": "/docs/Proxmox/Remove No Sub Pop-up",
             "docId": "Proxmox/Remove No Sub Pop-up",
             "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Resize LVM's",
+            "href": "/docs/Proxmox/Resize LVM's",
+            "docId": "Proxmox/Resize LVM's",
+            "unlisted": false
           }
         ]
       },
@@ -697,6 +704,12 @@
       "id": "Proxmox/Remove No Sub Pop-up",
       "title": "Remove No Sub Pop-up",
       "description": "In the Shell of the node run:",
+      "sidebar": "tutorialSidebar"
+    },
+    "Proxmox/Resize LVM's": {
+      "id": "Proxmox/Resize LVM's",
+      "title": "Resize LVM's",
+      "description": "Change proxmox storage to have one drive for VM's and ISO's",
       "sidebar": "tutorialSidebar"
     },
     "Windows/Batch files to format drives/Batch Files to format Drives": {

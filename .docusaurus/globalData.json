@@ -221,6 +221,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Proxmox/Resize LVM's",
+              "path": "/docs/Proxmox/Resize LVM's",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Windows/Batch files to format drives/Batch Files to format Drives",
               "path": "/docs/Windows/Batch files to format drives/",
               "sidebar": "tutorialSidebar"

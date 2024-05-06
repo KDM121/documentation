@@ -1,0 +1,23 @@
+{
+  "id": "Proxmox/Resize LVM's",
+  "title": "Resize LVM's",
+  "description": "Change proxmox storage to have one drive for VM's and ISO's",
+  "source": "@site/docs/Proxmox/Resize LVM's.md",
+  "sourceDirName": "Proxmox",
+  "slug": "/Proxmox/Resize LVM's",
+  "permalink": "/docs/Proxmox/Resize LVM's",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Remove No Sub Pop-up",
+    "permalink": "/docs/Proxmox/Remove No Sub Pop-up"
+  },
+  "next": {
+    "title": "Batch Files to format Drives",
+    "permalink": "/docs/Windows/Batch files to format drives/"
+  }
+}

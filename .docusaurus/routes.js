@@ -24,15 +24,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '52d'),
+    component: ComponentCreator('/docs', '384'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '7c6'),
+        component: ComponentCreator('/docs', 'c37'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'c19'),
+            component: ComponentCreator('/docs', '5fc'),
             routes: [
               {
                 path: '/docs/Docker Compose/Authentik',
@@ -283,6 +283,12 @@ export default [
               {
                 path: '/docs/Proxmox/Remove No Sub Pop-up',
                 component: ComponentCreator('/docs/Proxmox/Remove No Sub Pop-up', '519'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Proxmox/Resize LVM\'s',
+                component: ComponentCreator('/docs/Proxmox/Resize LVM\'s', '42a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

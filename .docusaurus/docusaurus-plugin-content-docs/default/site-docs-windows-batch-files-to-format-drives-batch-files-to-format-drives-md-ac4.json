@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Remove No Sub Pop-up",
-    "permalink": "/docs/Proxmox/Remove No Sub Pop-up"
+    "title": "Resize LVM's",
+    "permalink": "/docs/Proxmox/Resize LVM's"
   },
   "next": {
     "title": "How to burn ISO to USB with CMD",

@@ -37,17 +37,17 @@
     },
     "content": "393be207"
   },
-  "/docs-52d": {
+  "/docs-384": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "e97f61c9"
     }
   },
-  "/docs-7c6": {
+  "/docs-c37": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
-  "/docs-c19": {
+  "/docs-5fc": {
     "__comp": "a94703ab"
   },
   "/docs/Docker Compose/Authentik-b76": {
@@ -217,6 +217,10 @@
   "/docs/Proxmox/Remove No Sub Pop-up-519": {
     "__comp": "17896441",
     "content": "578fac3e"
+  },
+  "/docs/Proxmox/Resize LVM's-42a": {
+    "__comp": "17896441",
+    "content": "4c6d19c8"
   },
   "/docs/Windows/Batch files to format drives-0d4": {
     "__comp": "17896441",

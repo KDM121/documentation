@@ -22,6 +22,7 @@ export default {
   "41abd906": [() => import(/* webpackChunkName: "41abd906" */ "@site/docs/Docker Compose/Drawio.md"), "@site/docs/Docker Compose/Drawio.md", require.resolveWeak("@site/docs/Docker Compose/Drawio.md")],
   "42c5e536": [() => import(/* webpackChunkName: "42c5e536" */ "@site/docs/Docker Compose/Web-Proxy.md"), "@site/docs/Docker Compose/Web-Proxy.md", require.resolveWeak("@site/docs/Docker Compose/Web-Proxy.md")],
   "4bea67aa": [() => import(/* webpackChunkName: "4bea67aa" */ "@site/docs/Docker Compose/Pi-Hole.md"), "@site/docs/Docker Compose/Pi-Hole.md", require.resolveWeak("@site/docs/Docker Compose/Pi-Hole.md")],
+  "4c6d19c8": [() => import(/* webpackChunkName: "4c6d19c8" */ "@site/docs/Proxmox/Resize LVM's.md"), "@site/docs/Proxmox/Resize LVM's.md", require.resolveWeak("@site/docs/Proxmox/Resize LVM's.md")],
   "535691fe": [() => import(/* webpackChunkName: "535691fe" */ "@site/docs/Linux/General.md"), "@site/docs/Linux/General.md", require.resolveWeak("@site/docs/Linux/General.md")],
   "555e137c": [() => import(/* webpackChunkName: "555e137c" */ "@site/docs/Proxmox/LXC Config.md"), "@site/docs/Proxmox/LXC Config.md", require.resolveWeak("@site/docs/Proxmox/LXC Config.md")],
   "578fac3e": [() => import(/* webpackChunkName: "578fac3e" */ "@site/docs/Proxmox/Remove No Sub Pop-up.md"), "@site/docs/Proxmox/Remove No Sub Pop-up.md", require.resolveWeak("@site/docs/Proxmox/Remove No Sub Pop-up.md")],
