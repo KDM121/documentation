@@ -17,7 +17,7 @@
     "permalink": "/docs/Proxmox/PVE 8 Repositories"
   },
   "next": {
-    "title": "Resize LVM's",
-    "permalink": "/docs/Proxmox/Resize LVM's"
+    "title": "Storage config",
+    "permalink": "/docs/Proxmox/Storage config"
   }
 }

@@ -221,8 +221,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Proxmox/Resize LVM's",
-              "path": "/docs/Proxmox/Resize LVM's",
+              "id": "Proxmox/Storage config",
+              "path": "/docs/Proxmox/Storage config",
               "sidebar": "tutorialSidebar"
             },
             {

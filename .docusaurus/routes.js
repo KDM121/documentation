@@ -24,15 +24,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '384'),
+    component: ComponentCreator('/docs', 'ba1'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'c37'),
+        component: ComponentCreator('/docs', '98c'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '5fc'),
+            component: ComponentCreator('/docs', '17e'),
             routes: [
               {
                 path: '/docs/Docker Compose/Authentik',
@@ -287,8 +287,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Proxmox/Resize LVM\'s',
-                component: ComponentCreator('/docs/Proxmox/Resize LVM\'s', '42a'),
+                path: '/docs/Proxmox/Storage config',
+                component: ComponentCreator('/docs/Proxmox/Storage config', 'dba'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

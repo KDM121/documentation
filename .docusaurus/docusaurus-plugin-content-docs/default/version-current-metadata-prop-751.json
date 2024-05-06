@@ -320,9 +320,9 @@
           },
           {
             "type": "link",
-            "label": "Resize LVM's",
-            "href": "/docs/Proxmox/Resize LVM's",
-            "docId": "Proxmox/Resize LVM's",
+            "label": "Storage config",
+            "href": "/docs/Proxmox/Storage config",
+            "docId": "Proxmox/Storage config",
             "unlisted": false
           }
         ]
@@ -706,9 +706,9 @@
       "description": "In the Shell of the node run:",
       "sidebar": "tutorialSidebar"
     },
-    "Proxmox/Resize LVM's": {
-      "id": "Proxmox/Resize LVM's",
-      "title": "Resize LVM's",
+    "Proxmox/Storage config": {
+      "id": "Proxmox/Storage config",
+      "title": "Storage config",
       "description": "Change proxmox storage to have one drive for VM's and ISO's",
       "sidebar": "tutorialSidebar"
     },

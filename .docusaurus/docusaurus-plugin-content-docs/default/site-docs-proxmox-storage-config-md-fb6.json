@@ -1,0 +1,23 @@
+{
+  "id": "Proxmox/Storage config",
+  "title": "Storage config",
+  "description": "Change proxmox storage to have one drive for VM's and ISO's",
+  "source": "@site/docs/Proxmox/Storage config.md",
+  "sourceDirName": "Proxmox",
+  "slug": "/Proxmox/Storage config",
+  "permalink": "/docs/Proxmox/Storage config",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Remove No Sub Pop-up",
+    "permalink": "/docs/Proxmox/Remove No Sub Pop-up"
+  },
+  "next": {
+    "title": "Batch Files to format Drives",
+    "permalink": "/docs/Windows/Batch files to format drives/"
+  }
+}
