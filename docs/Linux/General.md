@@ -26,3 +26,9 @@ sudo lsof -nP -iTCP:3306
 ```bash
 docker stats
 ```
+
+### kitty set terminal correct
+
+```bash
+ export TERM=xterm
+ ```
