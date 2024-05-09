@@ -1,4 +1,4 @@
-# Generic command for linux
+# General Commands
 
 
 ### check installed OS 

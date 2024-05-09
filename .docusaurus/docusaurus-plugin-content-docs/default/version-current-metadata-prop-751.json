@@ -200,7 +200,7 @@
           },
           {
             "type": "link",
-            "label": "Generic command for linux",
+            "label": "General Commands",
             "href": "/docs/Linux/General",
             "docId": "Linux/General",
             "unlisted": false
@@ -618,7 +618,7 @@
     },
     "Linux/General": {
       "id": "Linux/General",
-      "title": "Generic command for linux",
+      "title": "General Commands",
       "description": "check installed OS",
       "sidebar": "tutorialSidebar"
     },
