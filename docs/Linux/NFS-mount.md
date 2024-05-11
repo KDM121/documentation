@@ -10,14 +10,19 @@ sudo apt install nfs-common
 ```bash
 sudo mkdir /PATH/TO/MOUNTPOINT
 ```
+
 3:
+
 ```bash
 sudo nano /etc/fstab
 ```
+
 add the following to the file:
+
 ```bash
-192.168.1.2:/share /PATH/TO/MOUNTPOINT nfs defaults 0 0
+192.168.1.2:/share /PATH/TO/MOUNTPOINT nfs defaults,rw 0 0
 ```
+
 4: mount the share
 
 ```bash
@@ -25,10 +30,13 @@ sudo mount -a
 ```
 
 5: check if it is mounted
+
 ```bash
 df -h
 ```
+
 e.g:
+
 ```bash
 Filesystem         Size  Used Avail Use% Mounted on
 tmpfs              3.1G  2.6M  3.1G   1% /run
@@ -41,4 +49,19 @@ tmpfs               16G     0   16G   0% /run/qemu
 tmpfs              3.1G  180K  3.1G   1% /run/user/1000
 192.168.1.2:/share  469G     0  469G   0% /PATH/TO/MOUNTPOINT
 ```
+
 (the last line is the nfs share)
+
+ON the server:
+
+1: create a group,
+
+2: set the mapall group to the group created
+
+3: set the permission of the group to RW in datasets
+
+4: add the nfs share with the path/ setup nfs share
+
+2: set host/ network if restricting to specific IP's
+
+try accessing the nfs share
