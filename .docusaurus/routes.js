@@ -24,15 +24,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ba1'),
+    component: ComponentCreator('/docs', 'f2e'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '98c'),
+        component: ComponentCreator('/docs', '0de'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '17e'),
+            component: ComponentCreator('/docs', '2c7'),
             routes: [
               {
                 path: '/docs/Docker Compose/Authentik',
@@ -185,8 +185,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Linux/FedoraRepoSetup',
-                component: ComponentCreator('/docs/Linux/FedoraRepoSetup', '15b'),
+                path: '/docs/Linux/Fedora Setup',
+                component: ComponentCreator('/docs/Linux/Fedora Setup', '9ec'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

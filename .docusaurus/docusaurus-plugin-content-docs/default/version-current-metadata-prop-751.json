@@ -186,9 +186,9 @@
         "items": [
           {
             "type": "link",
-            "label": "FedoraRepoSetup",
-            "href": "/docs/Linux/FedoraRepoSetup",
-            "docId": "Linux/FedoraRepoSetup",
+            "label": "Fedora Setup",
+            "href": "/docs/Linux/Fedora Setup",
+            "docId": "Linux/Fedora Setup",
             "unlisted": false
           },
           {
@@ -604,9 +604,9 @@
       "description": "you can download the script using",
       "sidebar": "tutorialSidebar"
     },
-    "Linux/FedoraRepoSetup": {
-      "id": "Linux/FedoraRepoSetup",
-      "title": "FedoraRepoSetup",
+    "Linux/Fedora Setup": {
+      "id": "Linux/Fedora Setup",
+      "title": "Fedora Setup",
       "description": "Run all 3 commands to enable correct repositories on fedora workstation",
       "sidebar": "tutorialSidebar"
     },

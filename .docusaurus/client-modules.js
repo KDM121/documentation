@@ -3,4 +3,5 @@ export default [
   require("/home/kieran/Github/documentation/node_modules/@docusaurus/theme-classic/lib/prism-include-languages"),
   require("/home/kieran/Github/documentation/node_modules/@docusaurus/theme-classic/lib/nprogress"),
   require("/home/kieran/Github/documentation/src/css/custom.css"),
+  require("/home/kieran/Github/documentation/node_modules/@orama/plugin-docusaurus-v3/lib/theme/SearchBar/index.css"),
 ];

@@ -7,6 +7,9 @@ export default {
   "title": "Kieran's Documentation",
   "tagline": "Homelab Documents, configs and scripts",
   "favicon": "img/favicon.ico",
+  "plugins": [
+    "@orama/plugin-docusaurus-v3"
+  ],
   "url": "https://docs.kieranmcdonnell.com",
   "baseUrl": "/",
   "organizationName": "KDM121",
@@ -341,7 +344,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],

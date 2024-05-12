@@ -37,17 +37,17 @@
     },
     "content": "393be207"
   },
-  "/docs-ba1": {
+  "/docs-f2e": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "e97f61c9"
     }
   },
-  "/docs-98c": {
+  "/docs-0de": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
-  "/docs-17e": {
+  "/docs-2c7": {
     "__comp": "a94703ab"
   },
   "/docs/Docker Compose/Authentik-b76": {
@@ -150,9 +150,9 @@
     "__comp": "17896441",
     "content": "afda6a9f"
   },
-  "/docs/Linux/FedoraRepoSetup-15b": {
+  "/docs/Linux/Fedora Setup-9ec": {
     "__comp": "17896441",
-    "content": "63bcfa98"
+    "content": "b28d9aab"
   },
   "/docs/Linux/Flash ISO to USB-bf5": {
     "__comp": "17896441",

@@ -1,0 +1,23 @@
+{
+  "id": "Linux/test",
+  "title": "test",
+  "description": "",
+  "source": "@site/docs/Linux/test.md",
+  "sourceDirName": "Linux",
+  "slug": "/Linux/test",
+  "permalink": "/docs/Linux/test",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "docker install script",
+    "permalink": "/docs/Linux/docker install script"
+  },
+  "next": {
+    "title": "Debian VM-LXC setup w dockge",
+    "permalink": "/docs/Proxmox/Debian VM-LXC setup w dockge"
+  }
+}

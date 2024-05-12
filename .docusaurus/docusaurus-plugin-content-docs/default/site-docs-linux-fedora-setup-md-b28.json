@@ -1,0 +1,23 @@
+{
+  "id": "Linux/Fedora Setup",
+  "title": "Fedora Setup",
+  "description": "Run all 3 commands to enable correct repositories on fedora workstation",
+  "source": "@site/docs/Linux/Fedora Setup.md",
+  "sourceDirName": "Linux",
+  "slug": "/Linux/Fedora Setup",
+  "permalink": "/docs/Linux/Fedora Setup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Zipline",
+    "permalink": "/docs/Docker Compose/Zipline"
+  },
+  "next": {
+    "title": "Flash ISO to USB",
+    "permalink": "/docs/Linux/Flash ISO to USB"
+  }
+}

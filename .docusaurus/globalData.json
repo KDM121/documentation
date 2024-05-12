@@ -136,8 +136,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Linux/FedoraRepoSetup",
-              "path": "/docs/Linux/FedoraRepoSetup",
+              "id": "Linux/Fedora Setup",
+              "path": "/docs/Linux/Fedora Setup",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -303,6 +303,16 @@
         }
       ],
       "breadcrumbs": true
+    }
+  },
+  "@orama/plugin-docusaurus-v3": {
+    "default": {
+      "docsInstances": [
+        "default"
+      ],
+      "availableVersions": [
+        "current"
+      ]
     }
   }
 }

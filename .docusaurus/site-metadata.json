@@ -26,6 +26,11 @@
       "type": "package",
       "name": "@docusaurus/theme-classic",
       "version": "3.2.1"
+    },
+    "@orama/plugin-docusaurus-v3": {
+      "type": "package",
+      "name": "@orama/plugin-docusaurus-v3",
+      "version": "2.0.18"
     }
   }
 }
