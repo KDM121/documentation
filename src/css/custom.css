@@ -36,14 +36,9 @@ html[data-theme='dark'] {
 }
 .footer {
   background: linear-gradient(to bottom, #1f2937, #2f3e53); /* Set your desired color here */
-  border-top-width: 4px;
-  border-top-color: #8764B8;
-  border-top-style: solid
 }/* Other footer styles */
 
 .navbar {
   background-color: #1f2937;
-  border-bottom-width: 4px;
-  border-bottom-color: #8764B8;
-  border-bottom-style: solid
+
 }

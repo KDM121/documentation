@@ -1,284 +1,327 @@
 {
-  "/blog-b5f": {
-    "__comp": "a6aa9e1f",
+  "/__docusaurus/debug-e1b": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "d0e3cd01"
+      "plugin": "plugin---docusaurus-debuga-57-0b9"
+    }
+  },
+  "/__docusaurus/debug/config-167": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debuga-57-0b9"
+    }
+  },
+  "/__docusaurus/debug/content-f83": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debuga-57-0b9"
     },
-    "sidebar": "814f3328",
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-9d4": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debuga-57-0b9"
+    }
+  },
+  "/__docusaurus/debug/metadata-d7b": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debuga-57-0b9"
+    }
+  },
+  "/__docusaurus/debug/registry-1be": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debuga-57-0b9"
+    }
+  },
+  "/__docusaurus/debug/routes-22f": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debuga-57-0b9"
+    }
+  },
+  "/blog-b5f": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blogd-0-e-cac"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "efa55119"
+        "content": "content---blogefa-3ea"
       }
     ],
-    "metadata": "b2b675dd"
+    "metadata": "metadata---blogb-2-b-df1"
   },
   "/blog/archive-23f": {
-    "__comp": "9e4087bc",
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "d0e3cd01"
+      "plugin": "plugin---blogd-0-e-cac"
     },
-    "archive": "b2f554cd"
+    "archive": "archive---blog-archiveb-2-f-393"
   },
   "/blog/welcome-1dd": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---blog-welcomeace-e47"
       },
-      "plugin": "d0e3cd01"
+      "plugin": "plugin---blogd-0-e-cac"
     },
-    "sidebar": "814f3328",
-    "content": "7d4a5734"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-welcome-7-d-4-b12"
   },
   "/markdown-page-ce8": {
-    "__comp": "1f391b9e",
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "c92b634c"
+      "plugin": "plugin---markdown-pagec-92-8db"
     },
-    "content": "393be207"
+    "content": "content---markdown-page-393-028"
   },
   "/docs-f2e": {
-    "__comp": "5e95c892",
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "e97f61c9"
+      "plugin": "plugin---docse-97-461"
     }
   },
   "/docs-0de": {
-    "__comp": "a7bd4aaa",
-    "version": "935f2afb"
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---docs-935-398"
   },
   "/docs-2c7": {
-    "__comp": "a94703ab"
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Docker Compose/Authentik-b76": {
-    "__comp": "17896441",
-    "content": "be0c7e2f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-authentikbe-0-bcf"
   },
   "/docs/Docker Compose/Bookstack-867": {
-    "__comp": "17896441",
-    "content": "80a6203f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-bookstack-80-a-879"
   },
   "/docs/Docker Compose/Dockge-a8c": {
-    "__comp": "17896441",
-    "content": "2e4544ce"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-dockge-2-e-4-636"
   },
   "/docs/Docker Compose/Drawio-155": {
-    "__comp": "17896441",
-    "content": "41abd906"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-drawio-41-a-1d2"
   },
   "/docs/Docker Compose/General-30f": {
-    "__comp": "17896441",
-    "content": "ea93f117"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-generalea-9-b0c"
   },
   "/docs/Docker Compose/Homarr-17b": {
-    "__comp": "17896441",
-    "content": "16a31225"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-homarr-16-a-fa9"
   },
   "/docs/Docker Compose/Homepage-994": {
-    "__comp": "17896441",
-    "content": "157355ab"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-homepage-157-bff"
   },
   "/docs/Docker Compose/IT-Tools-64c": {
-    "__comp": "17896441",
-    "content": "7fed4978"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-it-tools-7-fe-981"
   },
   "/docs/Docker Compose/Ladder-Proxy-0de": {
-    "__comp": "17896441",
-    "content": "917ebb81"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-ladder-proxy-917-daa"
   },
   "/docs/Docker Compose/Linkwarden-47d": {
-    "__comp": "17896441",
-    "content": "10858f38"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-linkwarden-108-3ce"
   },
   "/docs/Docker Compose/Maker-Management-Platform-d9f": {
-    "__comp": "17896441",
-    "content": "87aec381"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-maker-management-platform-87-a-909"
   },
   "/docs/Docker Compose/Metube-2c8": {
-    "__comp": "17896441",
-    "content": "5d8d36b4"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-metube-5-d-8-fae"
   },
   "/docs/Docker Compose/Nextcloud-325": {
-    "__comp": "17896441",
-    "content": "09eebb08"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-nextcloud-09-e-43b"
   },
   "/docs/Docker Compose/NGINX web server-b27": {
-    "__comp": "17896441",
-    "content": "03832c80"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-nginx-web-server-038-725"
   },
   "/docs/Docker Compose/Nginx-Proxy-Manager-abd": {
-    "__comp": "17896441",
-    "content": "fc218637"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-nginx-proxy-managerfc-2-93f"
   },
   "/docs/Docker Compose/Pi-Hole-5a0": {
-    "__comp": "17896441",
-    "content": "4bea67aa"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-pi-hole-4-be-609"
   },
   "/docs/Docker Compose/Speedtest-4a6": {
-    "__comp": "17896441",
-    "content": "df3b97d7"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-speedtestdf-3-f3a"
   },
   "/docs/Docker Compose/Stirling-PDF-ce1": {
-    "__comp": "17896441",
-    "content": "af815cff"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-stirling-pd-faf-8-dfd"
   },
   "/docs/Docker Compose/Uptime-Kuma-dcb": {
-    "__comp": "17896441",
-    "content": "d1bc5adc"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-uptime-kumad-1-b-87a"
   },
   "/docs/Docker Compose/Watchtower-f94": {
-    "__comp": "17896441",
-    "content": "c0ec64aa"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-watchtowerc-0-e-37e"
   },
   "/docs/Docker Compose/Web-Proxy-7b1": {
-    "__comp": "17896441",
-    "content": "42c5e536"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-web-proxy-42-c-c2d"
   },
   "/docs/Docker Compose/WG-easy-4c8": {
-    "__comp": "17896441",
-    "content": "2ecceb22"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-wg-easy-2-ec-340"
   },
   "/docs/Docker Compose/Zipline-914": {
-    "__comp": "17896441",
-    "content": "a2c93534"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-compose-ziplinea-2-c-8aa"
   },
   "/docs/intro-61d": {
-    "__comp": "17896441",
-    "content": "0e384e19"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
   },
   "/docs/Linux/docker install script-527": {
-    "__comp": "17896441",
-    "content": "afda6a9f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linux-docker-install-scriptafd-95f"
   },
   "/docs/Linux/Fedora Setup-9ec": {
-    "__comp": "17896441",
-    "content": "b28d9aab"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linux-fedora-setupb-28-ff0"
   },
   "/docs/Linux/Flash ISO to USB-bf5": {
-    "__comp": "17896441",
-    "content": "c0a7248e"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linux-flash-iso-to-us-bc-0-a-17f"
   },
   "/docs/Linux/General-17b": {
-    "__comp": "17896441",
-    "content": "535691fe"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linux-general-535-bef"
   },
   "/docs/Linux/House Keeping-985": {
-    "__comp": "17896441",
-    "content": "f1a9583a"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linux-house-keepingf-1-a-6de"
   },
   "/docs/Linux/Lunar Client Setup-6cf": {
-    "__comp": "17896441",
-    "content": "048efb83"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linux-lunar-client-setup-048-431"
   },
   "/docs/Linux/MC Paper 1.16.5 Setup-113": {
-    "__comp": "17896441",
-    "content": "3fe12ce7"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linux-mc-paper-1-16-5-setup-3-fe-6d5"
   },
   "/docs/Linux/Mount SMB share-865": {
-    "__comp": "17896441",
-    "content": "34671caa"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linux-mount-smb-share-346-3fc"
   },
   "/docs/Linux/NFS-mount-006": {
-    "__comp": "17896441",
-    "content": "389b2292"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linux-nfs-mount-389-a94"
   },
   "/docs/Linux/Setup Static IP and DNS Debian 12-a5d": {
-    "__comp": "17896441",
-    "content": "03b3ac7c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linux-setup-static-ip-and-dns-debian-1203-b-c74"
   },
   "/docs/Linux/SSH key stuff-185": {
-    "__comp": "17896441",
-    "content": "874095a0"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linux-ssh-key-stuff-874-77b"
   },
   "/docs/Proxmox/Debian VM-LXC setup w dockge-85a": {
-    "__comp": "17896441",
-    "content": "cec41c30"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-proxmox-debian-vm-lxc-setup-w-dockgecec-1d3"
   },
   "/docs/Proxmox/Full Disk Passthrough-2da": {
-    "__comp": "17896441",
-    "content": "71c24b70"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-proxmox-full-disk-passthrough-71-c-47a"
   },
   "/docs/Proxmox/General-020": {
-    "__comp": "17896441",
-    "content": "0d55e832"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-proxmox-general-0-d-5-58f"
   },
   "/docs/Proxmox/LXC Config-709": {
-    "__comp": "17896441",
-    "content": "555e137c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-proxmox-lxc-config-555-440"
   },
   "/docs/Proxmox/PVE 8 Add SMB share-ecd": {
-    "__comp": "17896441",
-    "content": "ca968d50"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-proxmox-pve-8-add-smb-shareca-9-e50"
   },
   "/docs/Proxmox/PVE 8 Repositories-3dd": {
-    "__comp": "17896441",
-    "content": "b1f6d514"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-proxmox-pve-8-repositoriesb-1-f-0f3"
   },
   "/docs/Proxmox/Remove No Sub Pop-up-519": {
-    "__comp": "17896441",
-    "content": "578fac3e"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-proxmox-remove-no-sub-pop-up-578-c32"
   },
   "/docs/Proxmox/Storage config-dba": {
-    "__comp": "17896441",
-    "content": "fb6cbe15"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-proxmox-storage-configfb-6-882"
   },
   "/docs/Windows/Batch files to format drives-0d4": {
-    "__comp": "17896441",
-    "content": "ac43a3ed"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-windows-batch-files-to-format-drivesac-4-58d"
   },
   "/docs/Windows/Batch files to format drives/How to burn ISO to USB with CMD-f03": {
-    "__comp": "17896441",
-    "content": "1a2ae10e"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-windows-batch-files-to-format-drives-how-to-burn-iso-to-usb-with-cmd-1-a-2-4a5"
   },
   "/docs/Windows/DNS changer bat/DNS changer Batch Files-e82": {
-    "__comp": "17896441",
-    "content": "dbca9fc0"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-windows-dns-changer-bat-dns-changer-batch-filesdbc-55d"
   },
   "/docs/Windows/Full Built-In Windows Scan-c88": {
-    "__comp": "17896441",
-    "content": "fd0e6209"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-windows-full-built-in-windows-scanfd-0-e07"
   },
   "/docs/Windows/Setup 11 without networking-eb8": {
-    "__comp": "17896441",
-    "content": "a5200879"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-windows-setup-11-without-networkinga-52-3be"
   },
   "/docs/Windows/Win Run Commands-d9a": {
-    "__comp": "17896441",
-    "content": "aea0f2cc"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-windows-win-run-commandsaea-2c7"
   },
   "/docs/Windows/Windows House Keeping and checkup-110": {
-    "__comp": "17896441",
-    "content": "b9083761"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-windows-windows-house-keeping-and-checkupb-90-429"
   },
   "/docs/Windows/Windows Keys-1bc": {
-    "__comp": "17896441",
-    "content": "fe0713d4"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-windows-windows-keysfe-0-27f"
   },
   "/docs/Windows/Windows Log Batch-e2c": {
-    "__comp": "17896441",
-    "content": "eadafae6"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-windows-windows-log-batchead-c60"
   },
   "/docs/Windows/Windows Tweaks/Block The Spot-999": {
-    "__comp": "17896441",
-    "content": "9c408a50"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-windows-windows-tweaks-block-the-spot-9-c-4-5ac"
   },
   "/docs/Windows/Windows Tweaks/Chris Titus Tech-1ef": {
-    "__comp": "17896441",
-    "content": "061eabc5"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-windows-windows-tweaks-chris-titus-tech-061-2fd"
   },
   "/docs/Windows/Windows Tweaks/Files for Tweaks-584": {
-    "__comp": "17896441",
-    "content": "2267de55"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-windows-windows-tweaks-files-for-tweaks-226-922"
   },
   "/docs/Windows/Windows Tweaks/Set up Quake Terminal-f74": {
-    "__comp": "17896441",
-    "content": "991942eb"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-windows-windows-tweaks-set-up-quake-terminal-991-6a7"
   },
   "/-367": {
-    "__comp": "c4f5d8e4",
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "c92b634c"
+      "plugin": "plugin---markdown-pagec-92-8db"
     },
-    "config": "5e9f5e1a"
+    "config": "config---5-e-9-4f3"
   }
 }
